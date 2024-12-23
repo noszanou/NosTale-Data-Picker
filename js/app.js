@@ -103,9 +103,6 @@ fetch('./js/items.json')
                             this.selectedOption.dropdown.sort = 'Vnum';
                             this.selectedOption.dropdown.selected = 'All';
                         },
-                        handleImageError(event) {
-                            event.target.src = 'images/0.png';
-                        }
                     }
                 });
             });

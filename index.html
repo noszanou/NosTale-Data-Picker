@@ -47,7 +47,7 @@
             <!-- Info panel -->
             <div v-if="currentItem != null">
                 <div class="title">
-                    <img class="icon" :src="'https://noszanou.com/Images/Icon/' + currentItem.Index + '.png'" @error="handleImageError" >
+                    <img class="icon" :src="'https://noszanou.com/Images/Icon/' + currentItem.Index + '.png'">
                     <br> {{currentItem.Name[this.selectedOption.dropdown.lang]}}
                 </div>
                 <p>
@@ -68,8 +68,7 @@
         <div id="list" v-on:scroll="display = display < currentList.length ? display + offset : display">
             <!-- List panel -->
             <div class="box" v-for="item in orderedList" v-if="checkItem(item)">
-                <img :src="'https://noszanou.com/Images/Icon/' + item.Index + '.png'" 
-                    @error="handleImageError" 
+                <img :src="'https://noszanou.com/Images/Icon/' + item.Index + '.png'"
                     @mouseover="currentItem = editingMode ? currentItem : item;"
                     @click="editingMode = !editingMode; currentJson = JSON.stringify(currentItem, null, 4)" />
             </div>
