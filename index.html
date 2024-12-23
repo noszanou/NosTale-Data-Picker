@@ -1,0 +1,84 @@
+<head>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="NosZanou">
+    <meta name="twitter:title" content="NosZanou">
+    <meta name="twitter:creator" content="NosZanou">
+    <meta name="twitter:description" content="NosZanou, Item &amp;&amp; Mob Picker<center><img src='http://noszanou.eu/assets/img/logo_square.png'/></center>">
+    <meta name="twitter:creator" content="@NosZanou">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="NosZanou" />
+    <meta property="og:url" content="http://noszanou.eu/" />
+    <meta property="og:image" content="http://noszanou.eu/assets/img/logo_square.png" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:description" content="NosZanou, Item &amp;&amp; Mob Picker<center><img src='http://noszanou.eu/assets/img/logo_square.png'/></center>">
+    <meta property="og:site_name" content="NosZanou" />
+    <meta name="twitter:image" content="http://noszanou.eu/assets/img/logo_square.png" />
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <!-- CSS -->
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Fonts -->
+    <link href="./css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+
+<body>
+    <div id="panel">
+        <div id="pickers">
+            <div class="item" @click="switchTo('items')"></div>
+            <div class="monster" @click="switchTo('monsters')"></div>
+        </div>
+        <div id="search">
+            <!-- Search panel -->
+            <!--<img class="logo" src="images/logo.png" /> -->
+            <div class="name">
+                <input type="text" v-model="selectedOption.filter" placeholder="Name/Vnum...">
+            </div>
+            <select v-for="(value, key) in selectedOption.dropdown" v-model="selectedOption.dropdown[key]"
+                class="select" :class="key">
+                <option v-for="option in list[key]">{{option}}</option>
+            </select>
+        </div>
+
+        <div id="info">
+            <!-- Info panel -->
+            <div v-if="currentItem != null">
+                <div class="title">
+                    <img class="icon" :src="'images/' + currentItem.Index + '.png'" @error="handleImageError" >
+                    <br> {{currentItem.Name[this.selectedOption.dropdown.lang]}}
+                </div>
+                <p>
+                    <strong v-if="editingMode">
+                        <textarea v-model="currentJson" cols="31" rows="30"></textarea>
+                        <br>
+                        <button class="validate" type="button" @click="editingMode = false">Send</button>
+                        <button class="cancel" type="button" @click="editingMode = false">Cancel</button>
+                    </strong>
+                    <strong v-for="(option, key) in currentItem" v-if="key != 'Name' &amp;&amp; !editingMode">
+                        {{key}} : {{option}}
+                        <br>
+                    </strong>
+                </p>
+            </div>
+        </div>
+
+        <div id="list" v-on:scroll="display = display < currentList.length ? display + offset : display">
+            <!-- List panel -->
+            <div class="box" v-for="item in orderedList" v-if="checkItem(item)">
+                <img :src="'images/' + item.Index + '.png'" 
+                    @error="handleImageError" 
+                    @mouseover="currentItem = editingMode ? currentItem : item;"
+                    @click="editingMode = !editingMode; currentJson = JSON.stringify(currentItem, null, 4)" />
+            </div>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="https://unpkg.com/vue@2"></script>
+    <script src="./js/items.json"></script>
+    <script src="./js/monsters.json"></script>
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
