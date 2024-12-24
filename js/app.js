@@ -11,6 +11,7 @@ fetch('./js/items.json')
                         display: 6000,
                         offset: 6000, // items to display after scroll
                         currentList: [],
+                        isItem: true,
                         currentItem: null,
                         editingMode: false,
                         currentJson: '',
@@ -91,18 +92,29 @@ fetch('./js/items.json')
                                     ];
                                     this.list.sort = ['Vnum', 'Price'];
                                     this.currentList = items;
+                                    this.isItem = true;
                                     break;
 
                                 case 'monsters':
                                     this.list.selected = ['All'];
                                     this.list.sort = ['Vnum'];
                                     this.currentList = monsters;
+                                    this.isItem = false;
                                     break;
                             }
                             this.selectedOption.filter = '';
                             this.selectedOption.dropdown.sort = 'Vnum';
                             this.selectedOption.dropdown.selected = 'All';
                         },
+                        handleImageError(event) {
+                            event.target.src = 'https://itempicker.atlagaming.eu/api/items/icon/0';
+                        },
+                        getItemIconUrl(index) {
+                            const baseUrl = this.isItem 
+                                ? 'https://itempicker.atlagaming.eu/api/items/icon/' 
+                                : 'https://itempicker.atlagaming.eu/api/monsters/icon/';
+                            return baseUrl + index;
+                        }
                     }
                 });
             });

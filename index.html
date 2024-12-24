@@ -47,14 +47,13 @@
             <!-- Info panel -->
             <div v-if="currentItem != null">
                 <div class="title">
-                    <img class="icon" :src="'https://noszanou.com/Images/Icon/' + currentItem.Index + '.png'">
+                    <img class="icon" :src="getItemIconUrl(currentItem.Index)" @error="handleImageError">
                     <br> {{currentItem.Name[this.selectedOption.dropdown.lang]}}
                 </div>
                 <p>
                     <strong v-if="editingMode">
                         <textarea v-model="currentJson" cols="31" rows="30"></textarea>
                         <br>
-                        <button class="validate" type="button" @click="editingMode = false">Send</button>
                         <button class="cancel" type="button" @click="editingMode = false">Cancel</button>
                     </strong>
                     <strong v-for="(option, key) in currentItem" v-if="key != 'Name' &amp;&amp; !editingMode">
@@ -68,7 +67,8 @@
         <div id="list" v-on:scroll="display = display < currentList.length ? display + offset : display">
             <!-- List panel -->
             <div class="box" v-for="item in orderedList" v-if="checkItem(item)">
-                <img :src="'https://noszanou.com/Images/Icon/' + item.Index + '.png'"
+                <img :src="getItemIconUrl(item.Index)"
+                    @error="handleImageError"
                     @mouseover="currentItem = editingMode ? currentItem : item;"
                     @click="editingMode = !editingMode; currentJson = JSON.stringify(currentItem, null, 4)" />
             </div>

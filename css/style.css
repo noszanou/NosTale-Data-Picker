@@ -22,7 +22,7 @@ body{
     margin-top: 25px;
     width: 40px;
     height: 40px;
-    background: rgb(255, 255, 255) url('https://noszanou.com/Images/Icon/299.png') no-repeat right bottom;
+    background: rgb(255, 255, 255) url('https://itempicker.atlagaming.eu/api/items/icon/299') no-repeat right bottom;
     background-size: cover;
     position: absolute;
 }
@@ -34,7 +34,7 @@ body{
     margin-top: 25px;
     width: 40px;
     height: 40px;
-    background: rgb(255, 255, 255) url('https://noszanou.com/Images/Icon/8006.png') no-repeat right bottom;
+    background: rgb(255, 255, 255) url('https://itempicker.atlagaming.eu/api/monsters/icon/6') no-repeat right bottom;
     background-size: cover;
     position: absolute;
 }
@@ -152,6 +152,7 @@ strong{
 }
 
 .cancel{
+    margin-left:35%;
     display: inline;
 }
 
@@ -167,7 +168,7 @@ strong{
     display: block;
     width: 42px;
     height: 42px;
-    background-image: url(https://noszanou.com/Images/Icon/item-bg.png);
+    background-image: url(../Images/item-bg.png);
     float: left;
     overflow: hidden;
     position: relative;
