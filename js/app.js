@@ -82,29 +82,27 @@ fetch('./js/items.json')
                             return str1.toLowerCase().indexOf(str2.toLowerCase()) !== -1
                         },
                         switchTo(type) {
-                            switch (type) {
-                                case 'items':
-                                    this.list.selected = ['All', 'Aventurer',
-                                        'Swordman', 'Archer', 'Mage',
-                                        'Martial', 'Title', 'Fish',
-                                        'Sp',
-                                        'MultiClass', 'UnClass'
-                                    ];
-                                    this.list.sort = ['Vnum', 'Price'];
-                                    this.currentList = items;
-                                    this.isItem = true;
-                                    break;
-
-                                case 'monsters':
-                                    this.list.selected = ['All'];
-                                    this.list.sort = ['Vnum'];
-                                    this.currentList = monsters;
-                                    this.isItem = false;
-                                    break;
-                            }
-                            this.selectedOption.filter = '';
-                            this.selectedOption.dropdown.sort = 'Vnum';
-                            this.selectedOption.dropdown.selected = 'All';
+                            this.currentList = [];
+                            setTimeout(() => {
+                                switch (type) {
+                                    case 'items':
+                                        this.list.selected = ['All', 'Aventurer', 'Swordman', 'Archer', 'Mage', 'Martial', 'Title', 'Fish', 'Sp', 'MultiClass', 'UnClass'];
+                                        this.list.sort = ['Vnum', 'Price'];
+                                        this.currentList = items;
+                                        this.isItem = true;
+                                        break;
+                    
+                                    case 'monsters':
+                                        this.list.selected = ['All'];
+                                        this.list.sort = ['Vnum'];
+                                        this.currentList = monsters;
+                                        this.isItem = false;
+                                        break;
+                                }
+                                this.selectedOption.filter = '';
+                                this.selectedOption.dropdown.sort = 'Vnum';
+                                this.selectedOption.dropdown.selected = 'All';
+                            }, 100);
                         },
                         handleImageError(event) {
                             event.target.src = 'https://itempicker.atlagaming.eu/api/items/icon/0';
