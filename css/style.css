@@ -17,27 +17,45 @@ body {
     margin-left: 60%;
 }
 
-#pickers .item {
+#pickers .item,
+#pickers .monster,
+#pickers .card,
+#pickers .skill {
     cursor: pointer;
     border-radius: 6rem;
     margin-top: 25px;
     width: 40px;
     height: 40px;
-    background: rgb(201, 201, 201) url('https://itempicker.atlagaming.eu/api/items/icon/299') no-repeat right bottom;
     background-size: cover;
     position: absolute;
+    text-align: center;
+}
+
+#pickers .item {
+    background: url('https://nosapki.com/images/icons/299.png') no-repeat center;
 }
 
 #pickers .monster {
-    cursor: pointer;
     margin-left: 45px;
-    border-radius: 6rem;
-    margin-top: 25px;
-    width: 40px;
-    height: 40px;
-    background: rgb(201, 201, 201) url('https://itempicker.atlagaming.eu/api/monsters/icon/6') no-repeat right bottom;
-    background-size: cover;
-    position: absolute;
+    background: url('https://nosapki.com/images/icons/8003.png') no-repeat center;
+}
+
+#pickers .card {
+    margin-left: 90px;
+    background: url('https://nosapki.com/images/icons/10119.png') no-repeat center;
+}
+
+#pickers .skill {
+    margin-left: 135px;
+    background: url('https://nosapki.com/images/icons/5210.png') no-repeat center;
+}
+
+#pickers div p {
+    margin: 50px 0 0;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    top: 0px;
 }
 
 /******* SEARCH *******/
@@ -57,7 +75,6 @@ body {
     position: absolute;
     margin-top: 2%;
     margin-left: 518px;
-    background: rgb(201, 201, 201);
 }
 
 #search .name input {
@@ -67,7 +84,8 @@ body {
     padding: 0.6rem 2rem 0.6rem 1rem;
     font-family: roboto;
     transition: 0.5s;
-    background: rgb(201, 201, 201);
+    background: rgb(201, 201, 201); 
+    height: 33 /* Match the width of the select */
 }
 
 #search .name input:focus {
@@ -77,7 +95,7 @@ body {
 }
 
 #search .name span:before {
-    content: "ï€‚";
+    content: "";
     cursor: pointer;
     position: relative;
     font-family: fontawesome;
