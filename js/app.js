@@ -4,25 +4,25 @@ let items = [];
 let monsters = [];
 let cards = [];
 let skills = [];
-fetch('./js/items.json')
+fetch('./js/items.json?1')
     .then(response => response.json())
     .then(data => {
         items = data;
     });
 
-fetch('./js/monsters.json')
+fetch('./js/monsters.json?1')
     .then(response => response.json())
     .then(data => {
         monsters = data;
     });
 
-fetch('./js/cards.json')
+fetch('./js/cards.json?1')
     .then(response => response.json())
     .then(data => {
         cards = data;
     });
 
-fetch('./js/skills.json')
+fetch('./js/skills.json?1')
     .then(response => response.json())
     .then(data => {
         skills = data;
