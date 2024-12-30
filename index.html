@@ -4,7 +4,8 @@
     <meta name="twitter:site" content="NosZanou">
     <meta name="twitter:title" content="NosZanou">
     <meta name="twitter:creator" content="NosZanou">
-    <meta name="twitter:description" content="NosZanou, Item &amp;&amp; Mob Picker<center><img src='http://noszanou.eu/assets/img/logo_square.png'/></center>">
+    <meta name="twitter:description"
+        content="NosZanou, Item &amp;&amp; Mob Picker<center><img src='http://noszanou.eu/assets/img/logo_square.png'/></center>">
     <meta name="twitter:creator" content="@NosZanou">
 
     <!-- Open Graph -->
@@ -12,7 +13,8 @@
     <meta property="og:url" content="http://noszanou.eu/" />
     <meta property="og:image" content="http://noszanou.eu/assets/img/logo_square.png" />
     <meta property="og:image:type" content="image/png">
-    <meta property="og:description" content="NosZanou, Item &amp;&amp; Mob Picker<center><img src='http://noszanou.eu/assets/img/logo_square.png'/></center>">
+    <meta property="og:description"
+        content="NosZanou, Item &amp;&amp; Mob Picker<center><img src='http://noszanou.eu/assets/img/logo_square.png'/></center>">
     <meta property="og:site_name" content="NosZanou" />
     <meta name="twitter:image" content="http://noszanou.eu/assets/img/logo_square.png" />
 
@@ -28,14 +30,25 @@
 <body>
     <div id="panel">
         <div id="pickers">
-            <div class="item" @click="switchTo('items')"></div>
-            <div class="monster" @click="switchTo('monsters')"></div>
+            <div class="item" @click="switchTo('items')">
+                <p>Items</p>
+            </div>
+            <div class="monster" @click="switchTo('monsters')">
+                <p>Monsters</p>
+            </div>
+            <div class="card" @click="switchTo('cards')">
+                <p>Buffs</p>
+            </div>
+            <div class="skill" @click="switchTo('skills')">
+                <p>Skills</p>
+            </div>
         </div>
         <div id="search">
             <!-- Search panel -->
             <!--<img class="logo" src="images/logo.png" /> -->
             <div class="name">
                 <input type="text" v-model="selectedOption.filter" placeholder="Name/Vnum...">
+                <span></span>
             </div>
             <select v-for="(value, key) in selectedOption.dropdown" v-model="selectedOption.dropdown[key]"
                 class="select" :class="key">
@@ -47,8 +60,12 @@
             <!-- Info panel -->
             <div v-if="currentItem != null">
                 <div class="title">
-                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.Vnum)" @error="handleImageError">
+                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)" @error="handleImageError">
                     <br> {{currentItem.Name[this.selectedOption.dropdown.lang]}}
+                    <div v-if="type == 'items' && currentItem.Description[selectedOption.dropdown.lang] != 'NONE'">
+                        <br> <span v-html="currentItem.Description[selectedOption.dropdown.lang].replace(/\[n\]/g, '<br>')" style="color: red;"></span>
+                    </div>
+
                 </div>
                 <p>
                     <strong v-if="editingMode">
@@ -56,7 +73,7 @@
                         <br>
                         <button class="cancel" type="button" @click="editingMode = false">Cancel</button>
                     </strong>
-                    <strong v-for="(option, key) in currentItem" v-if="key != 'Name' &amp;&amp; !editingMode">
+                    <strong v-for="(option, key) in currentItem" v-if="key != 'Name' && key != 'Description' && !editingMode">
                         {{key}} : {{option}}
                         <br>
                     </strong>
@@ -67,8 +84,7 @@
         <div id="list" v-on:scroll="display = display < currentList.length ? display + offset : display">
             <!-- List panel -->
             <div class="box" v-for="item in orderedList" v-if="checkItem(item)">
-                <img loading="lazy" :src="getItemIconUrl(item.Vnum)"
-                    @error="handleImageError"
+                <img loading="lazy" :src="getItemIconUrl(item.IconId)" @error="handleImageError"
                     @mouseover="currentItem = editingMode ? currentItem : item;"
                     @click="editingMode = !editingMode; currentJson = JSON.stringify(currentItem, null, 4)" />
             </div>
