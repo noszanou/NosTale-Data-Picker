@@ -110,36 +110,34 @@ const app = new Vue({
             this.currentList = [];
             this.currentItem = null;
             this.type = type;
-            setTimeout(() => {
-                switch (type) {
-                    case 'items':
-                        this.list.selected = ['All', 'Aventurer', 'Swordman', 'Archer', 'Mage', 'Martial', 'Title', 'Fish', 'Sp', 'MultiClass', 'UnClass'];
-                        this.list.sort = ['Vnum', 'Price'];
-                        this.currentList = items;
-                        break;
+            switch (type) {
+                case 'items':
+                    this.list.selected = ['All', 'Aventurer', 'Swordman', 'Archer', 'Mage', 'Martial', 'Title', 'Fish', 'Sp', 'MultiClass', 'UnClass'];
+                    this.list.sort = ['Vnum', 'Price'];
+                    this.currentList = items;
+                    break;
 
-                    case 'monsters':
-                        this.list.selected = ['All'];
-                        this.list.sort = ['Vnum'];
-                        this.currentList = monsters;
-                        break;
+                case 'monsters':
+                    this.list.selected = ['All'];
+                    this.list.sort = ['Vnum'];
+                    this.currentList = monsters;
+                    break;
 
-                    case 'skills':
-                        this.list.selected = ['All'];
-                        this.list.sort = ['Vnum'];
-                        this.currentList = skills;
-                        break;
+                case 'skills':
+                    this.list.selected = ['All'];
+                    this.list.sort = ['Vnum'];
+                    this.currentList = skills;
+                    break;
 
-                    case 'cards':
-                        this.list.selected = ['All'];
-                        this.list.sort = ['Vnum'];
-                        this.currentList = cards;
-                        break;
-                }
-                this.selectedOption.filter = '';
-                this.selectedOption.dropdown.sort = 'Vnum';
-                this.selectedOption.dropdown.selected = 'All';
-            }, 100);
+                case 'cards':
+                    this.list.selected = ['All'];
+                    this.list.sort = ['Vnum'];
+                    this.currentList = cards;
+                    break;
+            }
+            this.selectedOption.filter = '';
+            this.selectedOption.dropdown.sort = 'Vnum';
+            this.selectedOption.dropdown.selected = 'All';
         },
         handleImageError(event) {
            event.target.src = 'https://nosapki.com/images/icons/0.png';
