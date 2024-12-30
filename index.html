@@ -20,15 +20,19 @@
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <!-- CSS -->
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css?1" rel="stylesheet" type="text/css" />
+    <link href="https://nosapki.com/css/nt.css?1" rel="stylesheet" type="text/css" />
     <!-- Fonts -->
     <link href="./css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <style>
+        [v-cloak] { display: none; }
+    </style>
 </head>
 
 <body>
-    <div id="panel">
+    <div id="panel" v-cloak>
         <div id="pickers">
             <div class="item" @click="switchTo('items')">
                 <p>Items</p>
@@ -45,7 +49,7 @@
         </div>
         <div id="search">
             <!-- Search panel -->
-            <!--<img class="logo" src="images/logo.png" /> -->
+            <img class="logo" src="./Images/logo_nz.png" />
             <div class="name">
                 <input type="text" v-model="selectedOption.filter" placeholder="Name/Vnum...">
                 <span></span>
@@ -59,21 +63,29 @@
         <div id="info">
             <!-- Info panel -->
             <div v-if="currentItem != null">
-                <div class="title">
-                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)" @error="handleImageError">
+                <div class="box-einfo">
+                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)"
+                        @error="handleImageError">
+                    <p class="name">{{ getItemName() }}</p>
+                </div>
+                <!--<div class="title">
+                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)"
+                        @error="handleImageError">
                     <br> {{currentItem.Name[this.selectedOption.dropdown.lang]}}
                     <div v-if="type == 'items' && currentItem.Description[selectedOption.dropdown.lang] != 'NONE'">
-                        <br> <span v-html="currentItem.Description[selectedOption.dropdown.lang].replace(/\[n\]/g, '<br>')" style="color: red;"></span>
+                        <br> <span
+                            v-html="currentItem.Description[selectedOption.dropdown.lang].replace(/\[n\]/g, '<br>')"
+                            style="color: red;"></span>
                     </div>
-
-                </div>
+                </div>-->
                 <p>
                     <strong v-if="editingMode">
                         <textarea v-model="currentJson" cols="31" rows="30"></textarea>
                         <br>
                         <button class="cancel" type="button" @click="editingMode = false">Cancel</button>
                     </strong>
-                    <strong v-for="(option, key) in currentItem" v-if="key != 'Name' && key != 'Description' && !editingMode">
+                    <strong v-for="(option, key) in currentItem"
+                        v-if="key != 'Name' && key != 'Description' && !editingMode">
                         {{key}} : {{option}}
                         <br>
                     </strong>

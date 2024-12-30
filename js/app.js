@@ -146,6 +146,9 @@ const app = new Vue({
         },
         getItemIconUrl(index) {
             return "https://nosapki.com/images/icons/" + index + ".png";
+        },
+        getItemName() {
+            return this.currentItem ? this.currentItem.Name[this.selectedOption.dropdown.lang] : '';
         }
     }
 });
