@@ -28,8 +28,10 @@ fetch('./js/skills.json?1')
         skills = data;
     });
 
+
 const app = new Vue({
     el: '#panel',
+    i18n,
     data: {
         display: 6000,
         offset: 6000, // items to display after scroll
@@ -62,12 +64,28 @@ const app = new Vue({
     },
     methods: {
         checkItem(item) {
-            if (typeof item.Name == 'undefined') {
+            if (!item.Name) {
                 return;
             }
             const title = item.Name[this.selectedOption.dropdown.lang];
-            const checkByItemType = ['Fish', 'Title', 'Sp'].includes(this.selectedOption.dropdown.selected);
-            return title != null && this.checkClass(checkByItemType ? item.ItemType : item.Class) && (this.contain(title, this.selectedOption.filter) || this.contain(item.Vnum.toString(), this.selectedOption.filter));
+            const titleMatches = title && this.contain(title, this.selectedOption.filter);
+            const vnumMatches = this.contain(item.Vnum.toString(), this.selectedOption.filter);
+
+            switch (this.type) {
+                case 'items':
+                    const checkByItemType = ['Fish', 'Title', 'Sp'].includes(this.selectedOption.dropdown.selected);
+                    const itemTypeOrClass = checkByItemType ? item.ItemType : item.Class;
+                    return this.checkClass(itemTypeOrClass) && (titleMatches || vnumMatches);
+
+                case 'monsters':
+                    return true && (titleMatches || vnumMatches);
+
+                case 'skills':
+                    return true && (titleMatches || vnumMatches);
+
+                case 'cards':
+                    return this.checkCard(item) && (titleMatches || vnumMatches);
+            }
         },
         checkClass(id) {
             switch (this.selectedOption.dropdown.selected) {
@@ -103,6 +121,22 @@ const app = new Vue({
                     return id != 1 && id != 2 && id != 4 && id != 8 && id != 14 && id != 16;
             }
         },
+
+        checkCard(card) {
+            switch (this.selectedOption.dropdown.selected) {
+                case 'All':
+                    return true;
+
+                case 'Neutral':
+                    return card.BuffGroup == 1;
+
+                case 'Bad':
+                    return card.BuffGroup == 2;
+
+                case 'Good':
+                    return card.BuffGroup == 0;
+            }
+        },
         contain(str1, str2) {
             return str1.toLowerCase().indexOf(str2.toLowerCase()) !== -1
         },
@@ -130,7 +164,7 @@ const app = new Vue({
                     break;
 
                 case 'cards':
-                    this.list.selected = ['All'];
+                    this.list.selected = ['All', "Neutral", "Bad", "Good"];
                     this.list.sort = ['Vnum'];
                     this.currentList = cards;
                     break;
@@ -140,13 +174,25 @@ const app = new Vue({
             this.selectedOption.dropdown.selected = 'All';
         },
         handleImageError(event) {
-           event.target.src = 'https://nosapki.com/images/icons/0.png';
+            event.target.src = 'https://nosapki.com/images/icons/0.png';
         },
         getItemIconUrl(index) {
             return "https://nosapki.com/images/icons/" + index + ".png";
         },
         getItemName() {
-            return this.currentItem ? this.currentItem.Name[this.selectedOption.dropdown.lang] : '';
+            if (!this.currentItem || this.currentItem.Name[this.selectedOption.dropdown.lang] === "NONE") {
+                return '';
+            }
+            return this.currentItem.Name[this.selectedOption.dropdown.lang];
+        },
+        getDescription() {
+            if (!this.currentItem || this.currentItem.Description[this.selectedOption.dropdown.lang] === "NONE") {
+                return '';
+            }
+            return this.currentItem.Description[this.selectedOption.dropdown.lang];
+        },
+        changeLanguage() {
+            i18n.locale = this.selectedOption.dropdown.lang;
         }
     }
 });
