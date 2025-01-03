@@ -29,16 +29,16 @@
     <div id="panel" v-cloak>
         <div id="pickers">
             <div class="item" @click="switchTo('items')">
-                <p>Items</p>
+                <p>{{ $t('items') }}</p>
             </div>
             <div class="monster" @click="switchTo('monsters')">
-                <p>Monsters</p>
+                <p>{{ $t('monsters') }}</p>
             </div>
             <div class="card" @click="switchTo('cards')">
-                <p>Buffs</p>
+                <p>{{ $t('buffs') }}</p>
             </div>
             <div class="skill" @click="switchTo('skills')">
-                <p>Skills</p>
+                <p>{{ $t('skills') }}</p>
             </div>
         </div>
         <div id="search">
@@ -49,7 +49,7 @@
                 <span></span>
             </div>
             <select v-for="(value, key) in selectedOption.dropdown" v-model="selectedOption.dropdown[key]"
-                class="select" :class="key">
+                class="select" :class="key" @change="changeLanguage">
                 <option v-for="option in list[key]">{{option}}</option>
             </select>
         </div>
@@ -57,10 +57,23 @@
         <div id="info">
             <!-- Info panel -->
             <div v-if="currentItem != null">
-                <div class="box-einfo">
+                <div class="box-einfo" style="max-width: 190px;">
                     <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)"
                         @error="handleImageError">
                     <p class="name">{{ getItemName() }}</p>
+                    <div v-if="type == 'cards'">
+                        <p class="level" v-html="currentItem.BuffLevel[selectedOption.dropdown.lang].replace(/\[br\]/g, '<br>')"></p>
+                        <p class="time">{{ currentItem.BuffDuration[selectedOption.dropdown.lang] }}</p>
+                        <p v-if="getDescription != 'NONE'"class="descr" v-html="getDescription().replace(/\[n\]/g, '<br>')"></p>
+                        <div class="bonus">
+                            <p v-for="bonus in currentItem.BuffId">{{ bonus[selectedOption.dropdown.lang] }}</p>
+                        </div>
+                        <p v-if="currentItem.BuffIdSecond && currentItem.BuffIdSecond.length > 0" class="sideTime">{{ currentItem.BuffDurationSecond[selectedOption.dropdown.lang] }}</p>
+                        <div v-if="currentItem.BuffIdSecond && currentItem.BuffIdSecond.length > 0" class="bonus">
+                            <p v-for="bonus in currentItem.BuffIdSecond">{{ bonus[selectedOption.dropdown.lang] }}</p>
+                        </div>
+                    </div>
+                    
                 </div>
                 <!--<div class="title">
                     <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)"
@@ -78,9 +91,9 @@
                         <br>
                         <button class="cancel" type="button" @click="editingMode = false">Cancel</button>
                     </strong>
-                    <strong v-for="(option, key) in currentItem"
-                        v-if="key != 'Name' && key != 'Description' && !editingMode">
-                        {{key}} : {{option}}
+                    <strong v-for="(option, key) in currentItem" 
+                        v-if="!['Name', 'Description', 'BuffLevel', 'BuffDuration', 'BuffId', 'BuffDurationSecond', 'BuffIdSecond'].includes(key) && !editingMode">
+                        {{ key }} : {{ option }}
                         <br>
                     </strong>
                 </p>
@@ -99,7 +112,7 @@
 
     <!--Script-->
     <script src="https://unpkg.com/vue@2"></script>
-    <script src="./js/items.json?1"></script>
-    <script src="./js/monsters.json?1"></script>
+    <script src="https://unpkg.com/vue-i18n@8"></script>
+    <script src="./js/i18n.js"></script>
     <script src="./js/app.js?1" type="text/javascript"></script>
 </body>
