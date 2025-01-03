@@ -6,7 +6,7 @@ body {
     margin-left: 50%;
     margin-top: 5%;
     transform: translate(-50%, -5%);
-    width: 81%;
+    width: 100%;
     background-color: #aaa;
 
 }
@@ -62,7 +62,7 @@ body {
 .logo {
     position: absolute;
     margin: 5px 5px;
-    width: 5.5%;
+    width: 4.5%;
 }
 
 #search {
@@ -142,7 +142,7 @@ body {
     float: left;
     background-color: rgb(201, 201, 201);
     height: 80%;
-    width: 295px;
+    width: 330px;
     overflow-y: auto;
 }
 
