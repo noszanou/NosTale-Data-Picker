@@ -57,34 +57,7 @@
         <div id="info">
             <!-- Info panel -->
             <div v-if="currentItem != null">
-                <div class="box-einfo" style="max-width: 190px;">
-                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)"
-                        @error="handleImageError">
-                    <p class="name">{{ getItemName() }}</p>
-                    <div v-if="type == 'cards'">
-                        <p class="level" v-html="currentItem.BuffLevel[selectedOption.dropdown.lang].replace(/\[br\]/g, '<br>')"></p>
-                        <p class="time">{{ currentItem.BuffDuration[selectedOption.dropdown.lang] }}</p>
-                        <p v-if="getDescription != 'NONE'"class="descr" v-html="getDescription().replace(/\[n\]/g, '<br>')"></p>
-                        <div class="bonus">
-                            <p v-for="bonus in currentItem.BuffId">{{ bonus[selectedOption.dropdown.lang] }}</p>
-                        </div>
-                        <p v-if="currentItem.BuffIdSecond && currentItem.BuffIdSecond.length > 0" class="sideTime">{{ currentItem.BuffDurationSecond[selectedOption.dropdown.lang] }}</p>
-                        <div v-if="currentItem.BuffIdSecond && currentItem.BuffIdSecond.length > 0" class="bonus">
-                            <p v-for="bonus in currentItem.BuffIdSecond">{{ bonus[selectedOption.dropdown.lang] }}</p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <!--<div class="title">
-                    <img class="icon" loading="lazy" :src="getItemIconUrl(currentItem.IconId)"
-                        @error="handleImageError">
-                    <br> {{currentItem.Name[this.selectedOption.dropdown.lang]}}
-                    <div v-if="type == 'items' && currentItem.Description[selectedOption.dropdown.lang] != 'NONE'">
-                        <br> <span
-                            v-html="currentItem.Description[selectedOption.dropdown.lang].replace(/\[n\]/g, '<br>')"
-                            style="color: red;"></span>
-                    </div>
-                </div>-->
+                <div class="box-einfo" style="max-width: 225px;" v-html="renderHtml()"></div>
                 <p>
                     <strong v-if="editingMode">
                         <textarea v-model="currentJson" cols="31" rows="30"></textarea>

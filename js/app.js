@@ -1,34 +1,3 @@
-/** json list **/
-
-let items = [];
-let monsters = [];
-let cards = [];
-let skills = [];
-fetch('./js/items.json?1')
-    .then(response => response.json())
-    .then(data => {
-        items = data;
-    });
-
-fetch('./js/monsters.json?1')
-    .then(response => response.json())
-    .then(data => {
-        monsters = data;
-    });
-
-fetch('./js/cards.json?1')
-    .then(response => response.json())
-    .then(data => {
-        cards = data;
-    });
-
-fetch('./js/skills.json?1')
-    .then(response => response.json())
-    .then(data => {
-        skills = data;
-    });
-
-
 const app = new Vue({
     el: '#panel',
     i18n,
@@ -52,7 +21,11 @@ const app = new Vue({
             lang: ['Uk', 'Fr', 'Es', 'It', 'Tr', 'Ru', 'Pl', 'De', 'Cz'],
             selected: [],
             sort: []
-        }
+        },
+        items: [],
+        monsters: [],
+        cards: [],
+        skills: []
     },
     computed: {
         orderedList: function () {
@@ -63,6 +36,31 @@ const app = new Vue({
         }
     },
     methods: {
+        fetchData() {
+            fetch('./js/items.json?1')
+                .then(response => response.json())
+                .then(data => {
+                    this.items = data;
+                });
+
+            fetch('./js/monsters.json?1')
+                .then(response => response.json())
+                .then(data => {
+                    this.monsters = data;
+                });
+
+            fetch('./js/cards.json?1')
+                .then(response => response.json())
+                .then(data => {
+                    this.cards = data;
+                });
+
+            fetch('./js/skills.json?1')
+                .then(response => response.json())
+                .then(data => {
+                    this.skills = data;
+                });
+        },
         checkItem(item) {
             if (!item.Name) {
                 return;
@@ -148,25 +146,25 @@ const app = new Vue({
                 case 'items':
                     this.list.selected = ['All', 'Aventurer', 'Swordman', 'Archer', 'Mage', 'Martial', 'Title', 'Fish', 'Sp', 'MultiClass', 'UnClass'];
                     this.list.sort = ['Vnum', 'Price'];
-                    this.currentList = items;
+                    this.currentList = this.items;
                     break;
 
                 case 'monsters':
                     this.list.selected = ['All'];
                     this.list.sort = ['Vnum'];
-                    this.currentList = monsters;
+                    this.currentList = this.monsters;
                     break;
 
                 case 'skills':
                     this.list.selected = ['All'];
                     this.list.sort = ['Vnum'];
-                    this.currentList = skills;
+                    this.currentList = this.skills;
                     break;
 
                 case 'cards':
                     this.list.selected = ['All', "Neutral", "Bad", "Good"];
                     this.list.sort = ['Vnum'];
-                    this.currentList = cards;
+                    this.currentList = this.cards;
                     break;
             }
             this.selectedOption.filter = '';
@@ -193,6 +191,141 @@ const app = new Vue({
         },
         changeLanguage() {
             i18n.locale = this.selectedOption.dropdown.lang;
+        },
+        renderHtml() {
+            const renderFunctions = {
+                'cards': this.renderCardDetails,
+                'skills': this.renderSkillDetails,
+                'items': this.renderItemDetails,
+                'monsters': this.renderMonsterDetails
+            };
+            return renderFunctions[this.type]?.call(this) || '';
+        },
+        renderDefaultNameAndIcon(fromMonster = false) {
+            if (!this.currentItem) return '';
+
+            let str = `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId)}" onerror="this.src='https://nosapki.com/images/icons/0.png'">`;
+
+            const itemName = this.getItemName();
+            if (fromMonster) {
+                const heroLevel = this.currentItem.heroLevel ? `(+${this.currentItem.heroLevel})` : '';
+                str += `<p class="name">${this.currentItem.level}Lv${heroLevel} ${itemName}</p>`;
+            } else {
+                str += `<p class="name">${itemName}</p>`;
+            }
+            return str;
+        },
+        renderCardDetails() {
+            if (!this.currentItem) return '';
+
+            const {
+                BuffLevel,
+                BuffDuration,
+                BuffId,
+                BuffIdSecond,
+                BuffDurationSecond
+            } = this.currentItem;
+            const lang = this.selectedOption.dropdown.lang;
+
+            let str = this.renderDefaultNameAndIcon();
+
+            str += `<p class="level">${BuffLevel[lang].replace(/\[br\]/g, '<br>')}</p>`;
+            str += `<p class="time">${BuffDuration[lang]}</p>`;
+
+            const description = this.getDescription();
+            if (description !== 'NONE') {
+                str += `<p class="descr">${description.replace(/\[n\]/g, '<br>')}</p>`;
+            }
+
+            if (BuffId.length > 0) {
+                str += `<div class="bonus">`;
+                str += BuffId.map(bonus => `<p>${bonus[lang]}</p>`).join('');
+                str += `</div>`;
+            }
+
+            if (BuffIdSecond.length > 0) {
+                str += `<p class="sideTime">${BuffDurationSecond[lang]}</p>`;
+                str += `<div class="bonus">`;
+                str += BuffIdSecond.map(bonus => `<p>${bonus[lang]}</p>`).join('');
+                str += `</div>`;
+            }
+
+            return str;
+        },
+        renderSkillDetails() {
+            if (!this.currentItem) return '';
+
+            const {
+                Description
+            } = this.currentItem;
+            const lang = this.selectedOption.dropdown.lang;
+
+            let str = this.renderDefaultNameAndIcon();
+            if (Description.length > 0) {
+                str += '<div class="descr">';
+                str += Description.map(descr => `<div>${descr[lang].replace(/\[n\]/g, '<br>')}</div>`).join('');
+                str += `</div>`;
+            }
+            return str;
+        },
+        renderItemDetails() {
+            if (!this.currentItem) return '';
+
+            const {
+                Description
+            } = this.currentItem;
+            const lang = this.selectedOption.dropdown.lang;
+
+            let str = this.renderDefaultNameAndIcon();
+            const description = this.getDescription();
+            if (description !== 'NONE') {
+                str += `<p class="descr">${description.replace(/\[n\]/g, '<br>')}</p>`;
+            }
+            return str;
+        },
+        renderMonsterDetails() {
+            if (!this.currentItem) return '';
+
+            const { element, attackClass, attackUpgrade, elementRate, damageMinimum, damageMaximum, concentrate,
+                criticalRate, criticalChance, closeDefence, distanceDefence, magicDefence, defenceUpgrade, defenceDodge, 
+                distanceDefenceDodge, fireResistance, waterResistance, lightResistance, darkResistance
+            } = this.currentItem;
+
+            const lang = this.selectedOption.dropdown.lang;
+
+            let str = this.renderDefaultNameAndIcon(true);
+
+            // move to i18n ...
+            const elements = ['No element', 'Fire', 'Water', 'Shadow', 'Light'];
+            const attack = ['Melee', 'Ranged', 'Magical'];
+            const elementType = elements[element] || 'Unknown';
+            const attackType = attack[attackClass] || 'Unknown';
+            str += `<p class="eleAttribute">${elementType}(${elementRate}%) ${attackType} attack</p>`;
+            str += `<p>`;
+            str += `<div class="attack.plusWeapon">Attack Level: +${attackUpgrade}</div>`;
+            str += `<div class="attack">${damageMinimum} ~ ${damageMaximum} Hit Rate: ${concentrate}</div>`;
+            str += `<div class="crit">${criticalChance}% Chance of Critical ${criticalRate}</div>`;
+            str += `</p>`;
+
+            str += `<p>`;
+            str += `<div class="attack.plusArmor">DefenceLevel: +${defenceUpgrade}</div>`;
+            str += `<div class="def0">MeleeDefence: ${closeDefence} Dodge ${defenceDodge}</div>`;
+            str += `<div class="def1">RangedDefence: ${distanceDefence} Dodge ${distanceDefenceDodge}</div>`;
+            str += `<div class="def2">MagicDefence: ${magicDefence}</div>`;
+            str += `</p>`;
+
+            str += `<p>`;
+            str += `<div class="res0">FireResistance: ${fireResistance}</div>`;
+            str += `<div class="res1">WaterResistance: ${waterResistance}</div>`;
+            str += `<div class="res2">LightResistance: ${lightResistance}</div>`;
+            str += `<div class="res3">ShadowResistance: ${darkResistance}</div>`;
+            str += `</p>`;
+            
+            // add flags || -onattack -ondeath -onhit -onmove -onspawn -ondefence
+            return str;
         }
+    },
+    created() {
+        this.fetchData();
     }
 });
