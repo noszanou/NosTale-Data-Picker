@@ -172,10 +172,13 @@ const app = new Vue({
             this.selectedOption.dropdown.selected = 'All';
         },
         handleImageError(event) {
-            event.target.src = 'https://nosapki.com/images/icons/0.png';
+            event.target.src = this.getItemIconUrl("0");
         },
         getItemIconUrl(index) {
-            return "https://nosapki.com/images/icons/" + index + ".png";
+            return this.getIconFromWeb("icons/" + index);
+        },
+        getIconFromWeb(sublink){
+            return "https://nosapki.com/images/" + sublink  + ".png";
         },
         getItemName() {
             if (!this.currentItem || this.currentItem.Name[this.selectedOption.dropdown.lang] === "NONE") {
@@ -204,14 +207,14 @@ const app = new Vue({
         renderDefaultNameAndIcon(fromMonster = false) {
             if (!this.currentItem) return '';
 
-            let str = `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId)}" onerror="this.src='https://nosapki.com/images/icons/0.png'">`;
+            let str = `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId)}" onerror="this.src='${this.getItemIconUrl(0)}'">`;
 
             const itemName = this.getItemName();
             if (fromMonster) {
                 const heroLevel = this.currentItem.heroLevel ? `(+${this.currentItem.heroLevel})` : '';
-                str += `<p class="name">${this.currentItem.level}Lv${heroLevel} ${itemName}</p>`;
+                str += `<div class="name">${this.currentItem.level}Lv${heroLevel} ${itemName}</div>`;
             } else {
-                str += `<p class="name">${itemName}</p>`;
+                str += `<div class="name">${itemName}</div>`;
             }
             return str;
         },
@@ -229,24 +232,29 @@ const app = new Vue({
 
             let str = this.renderDefaultNameAndIcon();
 
-            str += `<p class="level">${BuffLevel[lang].replace(/\[br\]/g, '<br>')}</p>`;
-            str += `<p class="time">${BuffDuration[lang]}</p>`;
+            str += `<div class="clear"></div>`;
 
+            str += `<div class="level">${BuffLevel[lang].replace(/\[br\]/g, '<br>')}</div>`;
+            str += `<div class="clear"></div>`;
+
+            str += `<div class="time">${BuffDuration[lang]}</div>`;
+            str += `<div class="clear"></div>`;
+            
             const description = this.getDescription();
             if (description !== 'NONE') {
-                str += `<p class="descr">${description.replace(/\[n\]/g, '<br>')}</p>`;
+                str += `<div class="descr">${description.replace(/\[n\]/g, '<br>')}</div>`;
+                str += `<div class="clear"></div>`;
             }
-
             if (BuffId.length > 0) {
                 str += `<div class="bonus">`;
-                str += BuffId.map(bonus => `<p>${bonus[lang]}</p>`).join('');
+                str += BuffId.map(bonus => `<div>${bonus[lang]}</div>`).join('');
                 str += `</div>`;
+                str += `<div class="clear"></div>`;
             }
-
             if (BuffIdSecond.length > 0) {
-                str += `<p class="sideTime">${BuffDurationSecond[lang]}</p>`;
+                str += `<div class="sideTime">${BuffDurationSecond[lang]}</div>`;
                 str += `<div class="bonus">`;
-                str += BuffIdSecond.map(bonus => `<p>${bonus[lang]}</p>`).join('');
+                str += BuffIdSecond.map(bonus => `<div>${bonus[lang]}</div>`).join('');
                 str += `</div>`;
             }
 
@@ -261,6 +269,8 @@ const app = new Vue({
             const lang = this.selectedOption.dropdown.lang;
 
             let str = this.renderDefaultNameAndIcon();
+            str += `<div class="clear"></div>`;
+
             if (Description.length > 0) {
                 str += '<div class="descr">';
                 str += Description.map(descr => `<div>${descr[lang].replace(/\[n\]/g, '<br>')}</div>`).join('');
@@ -277,9 +287,11 @@ const app = new Vue({
             const lang = this.selectedOption.dropdown.lang;
 
             let str = this.renderDefaultNameAndIcon();
+            str += `<div class="clear"></div>`;
+
             const description = this.getDescription();
             if (description !== 'NONE') {
-                str += `<p class="descr">${description.replace(/\[n\]/g, '<br>')}</p>`;
+                str += `<div class="descr">${description.replace(/\[n\]/g, '<br>')}</div>`;
             }
             return str;
         },
@@ -288,41 +300,119 @@ const app = new Vue({
 
             const { element, attackClass, attackUpgrade, elementRate, damageMinimum, damageMaximum, concentrate,
                 criticalRate, criticalChance, closeDefence, distanceDefence, magicDefence, defenceUpgrade, defenceDodge, 
-                distanceDefenceDodge, fireResistance, waterResistance, lightResistance, darkResistance
+                fireResistance, waterResistance, lightResistance, darkResistance, speed, xp, jobXp, isHostile, basicArea,
+                noticeRange, respawnTime, Drops
             } = this.currentItem;
 
             const lang = this.selectedOption.dropdown.lang;
 
             let str = this.renderDefaultNameAndIcon(true);
+            str += `<div class="clear"></div>`;
 
-            // move to i18n ...
-            const elements = ['No element', 'Fire', 'Water', 'Shadow', 'Light'];
-            const attack = ['Melee', 'Ranged', 'Magical'];
-            const elementType = elements[element] || 'Unknown';
-            const attackType = attack[attackClass] || 'Unknown';
-            str += `<p class="eleAttribute">${elementType}(${elementRate}%) ${attackType} attack</p>`;
-            str += `<p>`;
+            str += `<div class="eleAttribute"><img src="${this.getIconFromWeb(`nt-images/element_${element}`)}"> (${elementRate}%)</div>`;
+            str += `<div class="clear"></div>`;
+
             str += `<div class="attack.plusWeapon">Attack Level: +${attackUpgrade}</div>`;
-            str += `<div class="attack">${damageMinimum} ~ ${damageMaximum} Hit Rate: ${concentrate}</div>`;
+            str += `<div class="attack"><img src="${this.getIconFromWeb(`nt-images/class_${attackClass + 1}`)}"> ${damageMinimum} ~ ${damageMaximum} Hit Rate: ${concentrate}</div>`;
             str += `<div class="crit">${criticalChance}% Chance of Critical ${criticalRate}</div>`;
-            str += `</p>`;
+            str += `<div class="clear"></div>`;
 
-            str += `<p>`;
-            str += `<div class="attack.plusArmor">DefenceLevel: +${defenceUpgrade}</div>`;
-            str += `<div class="def0">MeleeDefence: ${closeDefence} Dodge ${defenceDodge}</div>`;
-            str += `<div class="def1">RangedDefence: ${distanceDefence} Dodge ${distanceDefenceDodge}</div>`;
-            str += `<div class="def2">MagicDefence: ${magicDefence}</div>`;
-            str += `</p>`;
+            str += `<div class="attack.plusArmor">Defence Level: +${defenceUpgrade}</div>`;
+            str += `<div class="def0"><img src="${this.getIconFromWeb("nt-images/class_1")}"> Defence: ${closeDefence}</div>`;
+            str += `<div class="def1"><img src="${this.getIconFromWeb("nt-images/class_2")}"> Defence: ${distanceDefence}</div>`;
+            str += `<div class="def2"><img src="${this.getIconFromWeb("nt-images/class_3")}"> Defence: ${magicDefence}</div>`;
+            str += `<div class="dodge">Dodge: ${defenceDodge}</div>`;
+            str += `<div class="clear"></div>`;
 
-            str += `<p>`;
-            str += `<div class="res0">FireResistance: ${fireResistance}</div>`;
-            str += `<div class="res1">WaterResistance: ${waterResistance}</div>`;
-            str += `<div class="res2">LightResistance: ${lightResistance}</div>`;
-            str += `<div class="res3">ShadowResistance: ${darkResistance}</div>`;
-            str += `</p>`;
+            str += `<div class="res0"><img src="${this.getIconFromWeb("nt-images/element_1")}"> Resistance: ${fireResistance}</div>`;
+            str += `<div class="res1"><img src="${this.getIconFromWeb("nt-images/element_2")}"> Resistance: ${waterResistance}</div>`;
+            str += `<div class="res2"><img src="${this.getIconFromWeb("nt-images/element_3")}"> Resistance: ${lightResistance}</div>`;
+            str += `<div class="res3"><img src="${this.getIconFromWeb("nt-images/element_4")}"> Resistance: ${darkResistance}</div>`;
+            str += `<div class="clear"></div>`;
             
+            str += `<div><img src="${this.getItemIconUrl(this.getMonsterRaceTypeIcon()[0])}"> ${this.getMonsterRaceTypeIcon()[1]}</div>`;
+            str += `<div>Movement Speed: ${speed}</div>`;
+            str += `<div>Respawn: ${respawnTime / 10}s</div>`;
+            str += `<div>Experience points: ${xp}</div>`;
+            str += `<div>C-Experience points: ${parseInt(xp * 0.04)}</div>`;
+            str += `<div>Job points: ${jobXp}</div>`;
+            str += `<div>${(isHostile ? "Aggresive" : "Not aggresive")}</div>`;
+            str += `<div>Sight range ${noticeRange}</div>`;
+            str += `<div>Attack range ${basicArea}</div>`;
+            str += `<div class="clear"></div>`;
+
+            if (Drops.length > 0) {
+                str += `<div class="content">`;
+                str += Drops.map(drop => `<a class="item-amount-percent hover-show-name " data-id="${drop.Vnum}" data-name="${drop.Name[lang]}" data-amount="${drop.Count}">
+                    <img src="${this.getItemIconUrl(drop.IconId)}">
+                    <p class="amount">${drop.Count}</p>
+                    <p class="percent">${drop.Chance}%</p>
+                    </a>`).join('');
+                str += `</div>`;
+            }
+
+            str += `<div id="hover-element-name"></div>`;
             // add flags || -onattack -ondeath -onhit -onmove -onspawn -ondefence
             return str;
+        },
+        getMonsterRaceTypeIcon(){
+            if (!this.currentItem) return '';
+            switch(parseInt(this.currentItem.race.toString() + this.currentItem.raceType.toString())){
+                case 0:
+                    return [18000, "Low-level Plant"];
+                case 1:
+                    return [18001, "Low-level Animal"];
+                case 2:
+                    return [18002, "Low-level Monster"];
+                case 3:
+                    return [18003, "Low-level Dragon"];
+                case 4:
+                    return [18004, "Low-level Robot"];
+
+                case 10:
+                    return [18050, "High-level Plant"];
+                case 11:
+                    return [18051, "High-level Animal"];
+                case 12:
+                    return [18052, "High-level Monster"];
+                case 13:
+                    return [18053, "High-level Robot Dragon"];
+                case 14:
+                    return [18054, "High-level Robot"];
+
+                case 20:
+                    return [18100, "Kovolt"];
+                case 21:
+                    return [18101, "Bushtail"];
+                case 22:
+                    return [18102, "Catsy"];
+    
+                case 30:
+                    return [18150, "Human being"];
+                case 31:
+                    return [18151, "Elf"];
+                case 32:
+                    return [18152, "Half"];
+                case 33:
+                    return [18153, "Demon"];
+                case 34:
+                    return [18154, "Orc"];
+                case 35:
+                    return [18155, "Draconian"];
+                case 36:
+                    return [18156, "Mullan"];
+    
+                case 40:
+                    return [18200, "Angel"];
+                case 50:
+                    return [18250, "Low-level Undead"];
+                case 51:
+                    return [18251, "High-level Undead"];
+                case 60:
+                    return [18300, "Low-level spirit"];
+                default:
+                    return [0, "Fixed trap"];
+            }
         }
     },
     created() {

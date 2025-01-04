@@ -57,7 +57,7 @@
         <div id="info">
             <!-- Info panel -->
             <div v-if="currentItem != null">
-                <div class="box-einfo" style="max-width: 225px;" v-html="renderHtml()"></div>
+                <div id="divStrona" class="box-einfo" style="max-width: 225px;" v-html="renderHtml()"></div>
                 <p>
                     <strong v-if="editingMode">
                         <textarea v-model="currentJson" cols="31" rows="30"></textarea>
@@ -84,6 +84,8 @@
     </div>
 
     <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/nt.js?1"></script>
     <script src="https://unpkg.com/vue@2"></script>
     <script src="https://unpkg.com/vue-i18n@8"></script>
     <script src="./js/i18n.js"></script>
