@@ -41981,5 +41981,33 @@
     ],
     "Vnum": 1890,
     "IconId": 6730
+  },
+  {
+    "Name": {
+      "Cz": "Zametání Země",
+      "De": "Boden kehren",
+      "Es": "Barrer el suelo",
+      "Fr": "Coup de balai",
+      "It": "Spazzare il pavimento",
+      "Pl": "Zamiatanie Podłogi",
+      "Ru": "NONE",
+      "Tr": "Yeri süpür",
+      "Uk": "Ground Sweep"
+    },
+    "Description": [
+      {
+        "Cz": "Vytváří oblak prachu, který blokuje nepříteli výhled.",
+        "De": "Erzeugt dicke Staubwolken, um die gegnerische Sicht zu trüben.",
+        "Es": "Crea densas nubes de polvo para nublar la visión de los enemigos.",
+        "Fr": "Tu crées d'épais nuages de poussières qui troublent la vue des ennemis.",
+        "It": "Crea spesse nubi di polvere per oscurare la vista del nemico.",
+        "Pl": "Tworzy gęste chmury pyłu, aby ograniczyć widoczność przeciwnika.",
+        "Ru": "NONE",
+        "Tr": "Rakibin görüşünü engellemek için kalın toz bulutları oluşturur.",
+        "Uk": "Creates a cloud of dust which blocks the enemy's vision."
+      }
+    ],
+    "Vnum": 1891,
+    "IconId": 6731
   }
 ]
