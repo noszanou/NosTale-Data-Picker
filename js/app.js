@@ -212,7 +212,8 @@ const app = new Vue({
             const itemName = this.getItemName();
             if (fromMonster) {
                 const heroLevel = this.currentItem.heroLevel ? `(+${this.currentItem.heroLevel})` : '';
-                str += `<div class="name">${this.currentItem.level}Lv${heroLevel} ${itemName}</div>`;
+                str += `<div class="name">${this.currentItem.level}Lv${heroLevel} ${itemName}</div> `;
+                
             } else {
                 str += `<div class="name">${itemName}</div>`;
             }
@@ -301,7 +302,7 @@ const app = new Vue({
             const { element, attackClass, attackUpgrade, elementRate, damageMinimum, damageMaximum, concentrate,
                 criticalRate, criticalChance, closeDefence, distanceDefence, magicDefence, defenceUpgrade, defenceDodge, 
                 fireResistance, waterResistance, lightResistance, darkResistance, speed, xp, jobXp, isHostile, basicArea,
-                noticeRange, respawnTime, Drops
+                noticeRange, respawnTime, Drops, maxMp, maxHp
             } = this.currentItem;
 
             const lang = this.selectedOption.dropdown.lang;
@@ -309,7 +310,9 @@ const app = new Vue({
             let str = this.renderDefaultNameAndIcon(true);
             str += `<div class="clear"></div>`;
 
-            str += `<div class="eleAttribute"><img src="${this.getIconFromWeb(`nt-images/element_${element}`)}"> (${elementRate}%)</div>`;
+            str += `<div class="def0">HP: ${maxHp}</div>`;
+            str += `<div class="def0">MP: ${maxMp}</div>`;
+            str += `<img src="${this.getIconFromWeb(`nt-images/element_${element}`)}"> (${elementRate}%)</div>`;
             str += `<div class="clear"></div>`;
 
             str += `<div class="attack.plusWeapon">Attack Level: +${attackUpgrade}</div>`;

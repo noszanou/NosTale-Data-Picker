@@ -56,21 +56,7 @@
 
         <div id="info">
             <!-- Info panel -->
-            <div v-if="currentItem != null">
-                <div id="divStrona" class="box-einfo" style="max-width: 225px;" v-html="renderHtml()"></div>
-                <p>
-                    <strong v-if="editingMode">
-                        <textarea v-model="currentJson" cols="31" rows="30"></textarea>
-                        <br>
-                        <button class="cancel" type="button" @click="editingMode = false">Cancel</button>
-                    </strong>
-                    <strong v-for="(option, key) in currentItem" 
-                        v-if="!['Name', 'Description', 'BuffLevel', 'BuffDuration', 'BuffId', 'BuffDurationSecond', 'BuffIdSecond'].includes(key) && !editingMode">
-                        {{ key }} : {{ option }}
-                        <br>
-                    </strong>
-                </p>
-            </div>
+            <div v-if="currentItem != null" id="divStrona" class="box-einfo" style="max-width: 225px;" v-html="renderHtml()"></div>
         </div>
 
         <div id="list" v-on:scroll="display = display < currentList.length ? display + offset : display">
