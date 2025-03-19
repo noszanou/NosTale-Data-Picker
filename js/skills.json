@@ -16456,6 +16456,17 @@
         "Ru": "Создает защиту, которая сокращает элементный ущерб, нанесенный членам группы.",
         "Tr": "Etrafta bulunan düşmanların dikkatlerini üstüne çekersin.",
         "Uk": "Attracts the attention of enemies within a certain radius."
+      },
+      {
+        "Cz": "Cooldown tohoto efektu nemůže být snížen.",
+        "De": "Die Abklingzeit dieses Effekts kann nicht reduziert werden.",
+        "Es": "El tiempo de espera de este efecto no se puede reducir.",
+        "Fr": "Le temps de rechargement de cet effet n'est pas réduit.",
+        "It": "Non č possibile ridurre il tempo di ricarica di questo effetto.",
+        "Pl": "Czas regeneracji tego efektu nie może zostać skrócony.",
+        "Ru": "Время перезарядки этого эффекта нельзя сократить.",
+        "Tr": "Bu efektin soğuma süresi kısaltılamaz.",
+        "Uk": "The cooldown of this effect cannot be reduced."
       }
     ],
     "Vnum": 815,
@@ -16523,6 +16534,17 @@
         "Ru": "Чем больше разница в твоем уровне и твоего врага, тем слабее действие.",
         "Tr": "Rakiplerinle aranda ne kadar seviye farkı büyük olursa, o kadar tesiri zayıf olur",
         "Uk": "The greater the difference in level between you and your enemies, the weaker the effect."
+      },
+      {
+        "Cz": "Cooldown tohoto efektu nemůže být snížen.",
+        "De": "Die Abklingzeit dieses Effekts kann nicht reduziert werden.",
+        "Es": "El tiempo de espera de este efecto no se puede reducir.",
+        "Fr": "Le temps de rechargement de cet effet n'est pas réduit.",
+        "It": "Non č possibile ridurre il tempo di ricarica di questo effetto.",
+        "Pl": "Czas regeneracji tego efektu nie może zostać skrócony.",
+        "Ru": "Время перезарядки этого эффекта нельзя сократить.",
+        "Tr": "Bu efektin soğuma süresi kısaltılamaz.",
+        "Uk": "The cooldown of this effect cannot be reduced."
       }
     ],
     "Vnum": 817,
@@ -17463,6 +17485,17 @@
         "Ru": "Если ты сможешь избежать нападения, твоя энергия может легко увеличится.",
         "Tr": "Bir saldırıdan başarıyla sakınırsan enerjini tekrar yükseltebilirsin.",
         "Uk": "If you successfully dodge an attack, some of your energy will be restored."
+      },
+      {
+        "Cz": "Cooldown tohoto efektu nemůže být snížen.",
+        "De": "Die Abklingzeit dieses Effekts kann nicht reduziert werden.",
+        "Es": "El tiempo de espera de este efecto no se puede reducir.",
+        "Fr": "Le temps de rechargement de cet effet n'est pas réduit.",
+        "It": "Non č possibile ridurre il tempo di ricarica di questo effetto.",
+        "Pl": "Czas regeneracji tego efektu nie może zostać skrócony.",
+        "Ru": "Время перезарядки этого эффекта нельзя сократить.",
+        "Tr": "Bu efektin soğuma süresi kısaltılamaz.",
+        "Uk": "The cooldown of this effect cannot be reduced."
       }
     ],
     "Vnum": 849,
@@ -28840,6 +28873,17 @@
         "Ru": "Усиливает до предела навыки.",
         "Tr": "Yetenekleri maksimuma çıkarır.",
         "Uk": "Maximises skills."
+      },
+      {
+        "Cz": "Cooldown tohoto efektu nemůže být snížen.",
+        "De": "Die Abklingzeit dieses Effekts kann nicht reduziert werden.",
+        "Es": "El tiempo de espera de este efecto no se puede reducir.",
+        "Fr": "Le temps de rechargement de cet effet n'est pas réduit.",
+        "It": "Non č possibile ridurre il tempo di ricarica di questo effetto.",
+        "Pl": "Czas regeneracji tego efektu nie może zostać skrócony.",
+        "Ru": "Время перезарядки этого эффекта нельзя сократить.",
+        "Tr": "Bu efektin soğuma süresi kısaltılamaz.",
+        "Uk": "The cooldown of this effect cannot be reduced."
       }
     ],
     "Vnum": 1327,
@@ -34980,15 +35024,15 @@
     },
     "Description": [
       {
-        "Cz": "Když použiješ tento skill během aktivní Příležitosti k útoku, ukradneš svému oponentovi 20% MP za úroveň postavy.",
-        "De": "Wenn du diesen Skill verwendest, während Angriffsmöglichkeit aktiv ist, stiehlst du 20% der MP des Gegners pro eigenem Level.",
-        "Es": "Si usas esta habilidad mientras está activo Posibilidad de ataque, robas un 20% del MP del enemigo por nivel propio.",
-        "Fr": "Si tu utilises cette compétence pendant qu'une possibilité d'attaque est active, alors tu voles 20 % des MP de l'adversaire pour chacun de tes niveaux.",
-        "It": "Se utilizzi questa abilitŕ mentre č attiva \"Possibilitŕ di attacco\", assorbirai il 20% degli MP dell'avversario per ogni livello posseduto.",
-        "Pl": "Jeśli użyjesz tej umiejętności, gdy możliwość ataku jest aktywna, ukradniesz 20% PM przeciwnika na każdym własnym poziomie.",
-        "Ru": "Если ты используешь этот навык, пока Возможность атаковать будет активна, ты украдешь по 20% ОМ своего соперника за каждый уровень персонажа.",
-        "Tr": "Saldırı imkanı etkinken bu beceriyi kullandığında rakipten sahip olduğun seviye başına %20 BP çalarsın.",
-        "Uk": "When you use this skill while Opportunity to Attack is active, you will steal 20% of your opponent's MP per character level."
+        "Cz": "Když použiješ tuto schopnost během aktivní Příležitosti k Útoku, ukradneš svému oponentovi 75 MP za úroveň postavy.",
+        "De": "Wenn du diesen Skill verwendest, während Angriffsmöglichkeit aktiv ist, stiehlst du 75 MP des Gegners pro eigenem Level.",
+        "Es": "Si usas esta habilidad mientras está activo Posibilidad de ataque, robas 75 MP del enemigo por nivel propio.",
+        "Fr": "Si tu utilises cette compétence pendant qu'une possibilité d'attaque est active, alors tu voles 75 MP de l'adversaire pour chacun de tes niveaux.",
+        "It": "Se utilizzi questa abilitŕ mentre č attiva \"Possibilitŕ di attacco\", assorbirai 75 MP dell'avversario per ogni livello posseduto.",
+        "Pl": "Jeśli użyjesz tej umiejętności, gdy możliwość ataku jest aktywna, ukradniesz 75 PM przeciwnika na każdy własny poziom.",
+        "Ru": "NONE",
+        "Tr": "Saldırı imkanı etkinken bu beceriyi kullanırsan rakipten kendin seviyen başına 75 BP çalarsın.",
+        "Uk": "When you use this skill while Opportunity to Attack is active, you will steal 75 MP off your opponent per character level."
       }
     ],
     "Vnum": 1612,
@@ -35008,15 +35052,26 @@
     },
     "Description": [
       {
-        "Cz": "Použití tohoto skillu během aktivní Příležitosti k útoku zruší všechny špatné efekty do úrovně 4.",
-        "De": "Wenn du diesen Skill verwendest, während Angriffsmöglichkeit aktiv ist, werden alle schlechten Effekte bis Level 4 aufgehoben.",
-        "Es": "Si usas esta habilidad mientras está activo Posibilidad de ataque, se retiran todos los efectos negativos hasta el nivel 4.",
-        "Fr": "Si tu utilises cette compétence pendant qu'une possibilité d'attaque est active, alors tous les effets négatifs jusqu'au niveau 4 sont dissipés.",
-        "It": "Se utilizzi questa abilitŕ mentre č attiva \"Possibilitŕ di attacco\", verranno disattivati tutti gli effetti negativi fino al livello 4.",
-        "Pl": "Jeśli użyjesz tej umiejętności, gdy możliwość ataku jest aktywna, wszystkie negatywne efekty do poziomu 4 zostaną usunięte.",
-        "Ru": "Если ты используешь этот навык, пока Возможность атаковать будет активна, ты снимешь все негативные эффекты ниже 4 уровня.",
-        "Tr": "Saldırı imkanı etkinken bu beceriyi kullandığında seviye 4'e kadar olan tüm kötü efektler silinir.",
-        "Uk": "Using this skill while Opportunity to Attack is active lifts all negative effects under level 4."
+        "Cz": "Když použiješ tuto schopnost během aktivní Příležitosti k Útoku, dostane tvůj oponent efekt Svázání Svitem Úplňku.",
+        "De": "Wenn du diesen Skill verwendest, während Angriffsmöglichkeit aktiv ist, erhält dein Gegner den Effekt \"Gebunden durch die Macht des Vollmondes\".",
+        "Es": "Si usas esta habilidad mientras está activo Posibilidad de ataque, el enemigo obtiene el efecto \"Ligado por el poder de la luna llena\".",
+        "Fr": "Si tu utilises cette compétence pendant qu'une possibilité d'attaque est active, alors ton adversaire reçoit l'effet « Lié par la puissance de la pleine lune ».",
+        "It": "Se utilizzi abilitŕ quando č attiva Possibilitŕ di attacco, il tuo avversario otterrŕ l'effetto \"Blocco del Potere della luna piena\".",
+        "Pl": "Jeśli użyjesz tej umiejętności, gdy możliwość ataku jest aktywna, przeciwnik otrzyma efekt \"Związanie Mocą Światła Pełni Księżyca\".",
+        "Ru": "NONE",
+        "Tr": "Saldırı imkanı etkinken bu beceriyi kullanırsan rakibin \"Dolunay gücüyle bağlı\" efektini alır.",
+        "Uk": "When you use this skill while Opportunity to Attack is active, your opponent will receive the Bound by the Full Moon's Light effect."
+      },
+      {
+        "Cz": "Cooldown tohoto efektu nemůže být snížen.",
+        "De": "Die Abklingzeit dieses Effekts kann nicht reduziert werden.",
+        "Es": "El tiempo de espera de este efecto no se puede reducir.",
+        "Fr": "Le temps de rechargement de cet effet n'est pas réduit.",
+        "It": "Non č possibile ridurre il tempo di ricarica di questo effetto.",
+        "Pl": "Czas regeneracji tego efektu nie może zostać skrócony.",
+        "Ru": "Время перезарядки этого эффекта нельзя сократить.",
+        "Tr": "Bu efektin soğuma süresi kısaltılamaz.",
+        "Uk": "The cooldown of this effect cannot be reduced."
       }
     ],
     "Vnum": 1613,
@@ -35176,15 +35231,15 @@
     },
     "Description": [
       {
-        "Cz": "Když použiješ tento skill během aktivní Příležitosti k útoku, květy při zmizení explodují a způsobí 10 dodatečného poškození za úroveň postavy.",
-        "De": "Wenn du diesen Skill verwendest, während Angriffsmöglichkeit aktiv ist, explodieren die Blüten beim Verschwinden und fügen Gegnern 10 zusätzlichen Schaden pro eigenem Level zu.",
-        "Es": "Si usas esta habilidad mientras está activo Posibilidad de ataque, explotan las flores al desaparecer y causan a los enemigos 10 de daño adicional por nivel propio.",
-        "Fr": "Si tu utilises cette compétence pendant qu'une possibilité d'attaque est active, alors les fleurs explosent au moment de disparaître et elles infligent 10 points de dégâts supplémentaires pour chacun de tes niveaux.",
-        "It": "Se utilizzi questa abilitŕ mentre č attiva \"Possibilitŕ di attacco\", i fiori esploderanno non appena scompariranno. I fiori arrecheranno 10 danni extra per ogni livello posseduto.",
-        "Pl": "Jeżeli użyjesz tej umiejętności, gdy możliwość ataku jest aktywna, kwiaty wybuchną z chwilą zniknięcia i wyrządzą przeciwnikowi 10 dodatkowych obrażeń na każdym własnym poziomie.",
-        "Ru": "Если ты используешь этот навык, пока Возможность атаковать будет активна, цветки взорвутся по исчезновению и нанесут по 10 единиц дополнительного урона за каждый уровень персонажа.",
-        "Tr": "Saldırı imkanı etkinken bu beceriyi kullandığında çiçekler kaybolma sırasında patlar ve rakiplere bulunulan seviye başına 10 ekstra hasar verir.",
-        "Uk": "When you use this skill while Opportunity to Attack is active, the flowers will explode when they disappear and inflict 10 additional damage per character level."
+        "Cz": "Když použiješ tuto schopnost během aktivní Příležitosti k Útoku, květy při zmizení explodují a způsobí 100 dodatečného poškození za úroveň postavy.",
+        "De": "Wenn du diesen Skill verwendest, während Angriffsmöglichkeit aktiv ist, explodieren die Blüten beim Verschwinden und fügen Gegnern 100 zusätzlichen Schaden pro eigenem Level zu.",
+        "Es": "Si usas esta habilidad mientras está activo Posibilidad de ataque, explotan las flores al desaparecer y causan a los enemigos 100 de daño adicional por nivel propio.",
+        "Fr": "Si tu utilises cette compétence pendant qu'une possibilité d'attaque est active, alors les fleurs explosent au moment de disparaître et elles infligent 100 points de dégâts supplémentaires pour chacun de tes niveaux.",
+        "It": "Se utilizzi questa abilitŕ mentre č attiva \"Possibilitŕ di attacco\", i fiori esploderanno non appena scompariranno. I fiori arrecheranno 100 danni extra per ogni livello posseduto.",
+        "Pl": "Jeśli użyjesz tej umiejętności, gdy możliwość ataku jest aktywna, kwiaty wybuchną w chwili zniknięcia i zadadzą przeciwnikom 100 dodatkowych obrażeń na każdy własny poziom.",
+        "Ru": "NONE",
+        "Tr": "Saldırı imkanı etkinken bu beceriyi kullandığında çiçekler kaybolma sırasında patlar ve rakiplere bulunulan seviye başına 100 ekstra hasar verir.",
+        "Uk": "When you use this skill while Opportunity to Attack is active, the flowers will explode when they disappear and inflict 100 additional damage per character level."
       }
     ],
     "Vnum": 1619,
@@ -35241,6 +35296,17 @@
         "Ru": "Если тебя атакуют, когда ты используешь Сопротивление, ты получаешь эффект Возможность атаковать.",
         "Tr": "Rakip bir saldırı sırasında direnişi kullanırsan saldırı imkanı efektini alırsın.",
         "Uk": "When you use Withstand during an enemy attack, you receive an Opportunity to Attack."
+      },
+      {
+        "Cz": "Cooldown tohoto efektu nemůže být snížen.",
+        "De": "Die Abklingzeit dieses Effekts kann nicht reduziert werden.",
+        "Es": "El tiempo de espera de este efecto no se puede reducir.",
+        "Fr": "Le temps de rechargement de cet effet n'est pas réduit.",
+        "It": "Non č possibile ridurre il tempo di ricarica di questo effetto.",
+        "Pl": "Czas regeneracji tego efektu nie może zostać skrócony.",
+        "Ru": "Время перезарядки этого эффекта нельзя сократить.",
+        "Tr": "Bu efektin soğuma süresi kısaltılamaz.",
+        "Uk": "The cooldown of this effect cannot be reduced."
       }
     ],
     "Vnum": 1621,
