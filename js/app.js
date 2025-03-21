@@ -175,6 +175,9 @@ const app = new Vue({
             event.target.src = this.getItemIconUrl("0");
         },
         getItemIconUrl(index) {
+            if (this.type == 'monsters') {
+                return this.getIconFromWeb("npcs/" + index);
+            }
             return this.getIconFromWeb("icons/" + index);
         },
         getIconFromWeb(sublink){
