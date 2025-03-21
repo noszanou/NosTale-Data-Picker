@@ -69,4 +69,4 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This project is licensed under the GNU General Public License v2. See the [License](https://github.com/noszanou/NosTale-Data-Picker/LICENSE) file for details.
+This project is licensed under the GNU General Public License v2. See the [License](https://github.com/noszanou/NosTale-Data-Picker/blob/main/LICENSE) file for details.
