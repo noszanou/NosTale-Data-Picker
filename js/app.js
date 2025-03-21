@@ -210,7 +210,8 @@ const app = new Vue({
         renderDefaultNameAndIcon(fromMonster = false) {
             if (!this.currentItem) return '';
 
-            let str = `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId, true)}" onerror="this.src='${this.getItemIconUrl(0)}'">`;
+            let str =`<p>VNUM: ${this.currentItem.Vnum}</p>`;
+            str += `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId, true)}" onerror="this.src='${this.getItemIconUrl(0)}'">`;
 
             const itemName = this.getItemName();
             if (fromMonster) {
