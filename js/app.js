@@ -174,8 +174,8 @@ const app = new Vue({
         handleImageError(event) {
             event.target.src = this.getItemIconUrl("0");
         },
-        getItemIconUrl(index) {
-            if (this.type == 'monsters') {
+        getItemIconUrl(index, fromMonster = false) {
+            if (fromMonster && this.type == 'monsters') {
                 return this.getIconFromWeb("npcs/" + index);
             }
             return this.getIconFromWeb("icons/" + index);
@@ -210,7 +210,7 @@ const app = new Vue({
         renderDefaultNameAndIcon(fromMonster = false) {
             if (!this.currentItem) return '';
 
-            let str = `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId)}" onerror="this.src='${this.getItemIconUrl(0)}'">`;
+            let str = `<img class="icon" loading="lazy" src="${this.getItemIconUrl(this.currentItem.IconId, true)}" onerror="this.src='${this.getItemIconUrl(0)}'">`;
 
             const itemName = this.getItemName();
             if (fromMonster) {

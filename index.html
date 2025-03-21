@@ -62,7 +62,7 @@
         <div id="list" v-on:scroll="display = display < currentList.length ? display + offset : display">
             <!-- List panel -->
             <div class="box" v-for="item in orderedList" v-if="checkItem(item)">
-                <img loading="lazy" :src="getItemIconUrl(item.IconId)" @error="handleImageError"
+                <img loading="lazy" :src="getItemIconUrl(item.IconId, true)" @error="handleImageError"
                     @mouseover="currentItem = editingMode ? currentItem : item;"
                     @click="editingMode = !editingMode; currentJson = JSON.stringify(currentItem, null, 4)" />
             </div>
