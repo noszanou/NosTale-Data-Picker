@@ -1980,15 +1980,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje fyzickou sílu o 80.",
-        "De": "Erhöht die Körperkraft um 80.",
-        "Es": "Aumenta la fuerza corporal en 80.",
-        "Fr": "La force physique augmente de 80.",
-        "It": "Incrementa la forza fisica di 80.",
-        "Pl": "Zwiększa siłę fizyczną o 80.",
+        "Cz": "Zvyšuje útočnou sílu zblízka o 80.[n]Zvyšuje obranu zblízka o 40.",
+        "De": "Erhöht den Nahkampfangriff um 80.[n]Erhöht die Nahangriffsverteidigung um 40.",
+        "Es": "Aumenta el combate cuerpo a cuerpo en 80.[n]Aumenta la defensa cuerpo a cuerpo en 40.",
+        "Fr": "L'attaque rapprochée augmente de 80.[n]La défense d'attaque rapprochée augmente de 40.",
+        "It": "Aumenta l'attacco corpo a corpo di 80.[n]Aumenta la difesa corpo a corpo di 40.",
+        "Pl": "Zwiększa atak wręcz o 80.[n]Zwiększa obronę ataków wręcz o 40.",
         "Ru": "Увеличение физической силы на 80.",
-        "Tr": "Beden gücünü 80 artrır.",
-        "Uk": "Increases physical strength by 80."
+        "Tr": "Yakın dövüş saldırısını 80 artırır.[n]Yakın saldırı savunmasını 40 artırır.",
+        "Uk": "Increases melee attack power by 80.[n]Increases melee defence by 40."
       }
     ],
     "Vnum": 96,
@@ -2008,15 +2008,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje hbitost o 80.",
-        "De": "Erhöht die Geschicklichkeit um 80.",
-        "Es": "Aumenta la destreza en 80.",
-        "Fr": "L'adresse augmente de 80.",
-        "It": "Incrementa la destrezza di 80.",
-        "Pl": "Zwiększa zręczność o 80.",
+        "Cz": "Zvyšuje útočnou sílu zdálky o 80.[n]Zvyšuje obranu zdálky o 40.[n]Zvyšuje míru zásahu o 160.[n]Zvyšuje vyhýbání o 80.",
+        "De": "Erhöht die Fernangriffskraft um 80.[n]Erhöht die Fernangriffsverteidigung um 40.[n]Erhöht die Hitrate um 160.[n]Erhöht das Ausweichen um 80.",
+        "Es": "Aumenta el poder de ataque a distancia en 80.[n]Aumenta la defensa a distancia en 40.[n]Aumenta el índice de acierto en 160.[n]Aumenta la evasión en 80.",
+        "Fr": "La force d'attaque à distance augmente de 80.[n]La défense d'attaque à distance augmente de 40.[n]La précision augmente de 160.[n]L'esquive augmente de 80.",
+        "It": "Incrementa la forza di attacco a distanza di 80.[n]Aumenta la difesa corpo a corpo di 40.[n]Incrementa l'HitRate di 160.[n]Incrementa la schivata di 80.",
+        "Pl": "Zwiększa siłę ataku długodystansowego o 80.[n]Zwiększa obronę przed atakiem długodystansowym o 40.[n]Zwiększa celność o 160.[n]Zwiększa unik o 80.",
         "Ru": "Увеличение ловкости на 80.",
-        "Tr": "Hüneri 80 artırır.",
-        "Uk": "Increases agility by 80."
+        "Tr": "Uzak saldırı gücünü 80 artırır.[n]Uzak saldırı savunmasını 40 artırır.[n]İsabet oranını 160 artırır.[n]Kaçınmayı 80 artırır.",
+        "Uk": "Increases ranged attack power by 80.[n]Increases ranged defence by 40.[n]Increases hit rate by 160.[n]Increases dodge by 80."
       }
     ],
     "Vnum": 97,
@@ -2036,15 +2036,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje inteligenci o 80.",
-        "De": "Erhöht die Geisteskraft um 80.",
-        "Es": "Aumenta la defensa mágica en 80.",
-        "Fr": "La force de l'esprit augmente de 80.",
-        "It": "Incrementa l'intelligenza di 80.",
-        "Pl": "Zwiększa bystrość o 80.",
+        "Cz": "Zvyšuje magickou útočnou sílu o 80.[n]Zvyšuje magickou obranu o 40.",
+        "De": "Erhöht die Magieangriffskraft um 80.[n]Erhöht die Magieverteidigung um 40.",
+        "Es": "Aumenta la fuerza de ataque mágico en 80.[n]Aumenta la defensa mágica en 40.",
+        "Fr": "La force d'attaque magique augmente de 80.[n]La défense magique augmente de 40.",
+        "It": "Incrementa l'attacco magico di 80.[n]Aumenta la difesa magica di 40.",
+        "Pl": "Zwiększa siłę ataku magicznego o 80.[n]Zwiększa obronę magiczną o 40.",
         "Ru": "Увеличение интеллекта на 80.",
-        "Tr": "Zihin gücünü 80 artırır.",
-        "Uk": "Increases intelligence by 80."
+        "Tr": "Büyü saldırı gücünü 80 artırır.[n]Büyü savunmasını 40 artırır.",
+        "Uk": "Increases magic attack power by 80.[n]Increases magic defence by 40."
       }
     ],
     "Vnum": 98,
@@ -2067,11 +2067,11 @@
         "Cz": "Zvyšuje maximum HP o 4000.",
         "De": "Erhöht die maximalen HP um 4000.",
         "Es": "Aumenta el nivel máximo de HP en 4000.",
-        "Fr": "Les HP maximums augmentent de 4 000.",
+        "Fr": "Les HP maximums augmentent de 4000.",
         "It": "Incrementa gli HP max. di 4000.",
         "Pl": "Zwiększa maks. PŻ o 4000.",
         "Ru": "Повышает максимальное количество ОЗ на 4000",
-        "Tr": "Maksimum YP'yi 4.000 artırır.",
+        "Tr": "Maksimum YP'yi 4000 artırır.",
         "Uk": "Increases maximum HP by 4000."
       }
     ],
@@ -2099,7 +2099,7 @@
         "It": "Incrementa gli MP max. di 4000.",
         "Pl": "Zwiększa liczbę maks. PM o 4000.",
         "Ru": "Увеличение количества максимальных ОМ на 4000.",
-        "Tr": "Maksimum BP'yi 4.000 artırır.",
+        "Tr": "Maksimum BP'yi 4000 artırır.",
         "Uk": "Increases maximum MP by 4000."
       }
     ],
@@ -2120,15 +2120,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje celkovou obrannou sílu o 30.",
-        "De": "Erhöht die gesamte Verteidigungskraft um 30.",
-        "Es": "Aumenta el poder de defensa total en 30.",
-        "Fr": "La force de défense totale augmente de 30.",
-        "It": "Incrementa la forza di difesa globale di 30.",
-        "Pl": "Zwiększa całą siłę obrony o 30.",
+        "Cz": "Zvyšuje všechny obrany o 30.",
+        "De": "Erhöht alle Verteidigungen um 30.",
+        "Es": "Aumenta todas las defensas en 30.",
+        "Fr": "Toutes les défenses augmentent de 30.",
+        "It": "Incrementa di 30 tutte le difese.",
+        "Pl": "Zwiększa wszystkie obrony o 30.",
         "Ru": "Увеличение общей защиты на 30.",
-        "Tr": "Toplam savunma gücünü 30 artırır.",
-        "Uk": "Increases overall defence power by 30."
+        "Tr": "Tüm savunmaları 30 artırır.",
+        "Uk": "Increases all types of defence by 30."
       }
     ],
     "Vnum": 101,
@@ -2148,15 +2148,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje celkovou útočnou sílu o 30.",
-        "De": "Erhöht die gesamte Angriffskraft um 30.",
-        "Es": "Aumenta el poder total de ataque en 30.",
-        "Fr": "La force d'attaque totale augmente de 30.",
-        "It": "Incrementa la forza di attacco globale di 30.",
-        "Pl": "Zwiększa całą siłę ataku o 30.",
+        "Cz": "Zvyšuje všechny útočné síly o 30.",
+        "De": "Erhöht alle Angriffskräfte um 30.",
+        "Es": "Aumenta todos los poderes de ataque en 30.",
+        "Fr": "Toutes les forces d'attaque augmentent de 30.",
+        "It": "Incrementa di 30 tutti gli attacchi.",
+        "Pl": "Zwiększa wszystkie siły ataku o 30.",
         "Ru": "Увеличение общей атаки на 30.",
-        "Tr": "Toplam saldırı gücünü 30 artırır.",
-        "Uk": "Increases overall attack power by 30."
+        "Tr": "Tüm saldırı güçlerini 30 arttırır.",
+        "Uk": "Increases all types of attack power by 30."
       }
     ],
     "Vnum": 102,
@@ -2204,15 +2204,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje získané zkušenosti o 3%.",
-        "De": "Erhöht den Erfahrungspunktegewinn um 3%.",
-        "Es": "Aumenta los puntos de experiencia obtenidos un 3 %.",
-        "Fr": "Le gain de points d'EXP augmente de 3 %",
-        "It": "Incrementa l'acquisizione di punti esperienza del 3%.",
-        "Pl": "Zwiększa pozyskiwanie punktów doświadczenia o 3%.",
+        "Cz": "Zvyšuje získané zkušenosti o 5 %.",
+        "De": "Erhöht den Erfahrungsgewinn um 5%.",
+        "Es": "Aumenta la experiencia que se obtiene en un 5 %.",
+        "Fr": "Le gain en EXP augmente de 5 %.",
+        "It": "Incrementa del 5% il guadagno di esperienza.",
+        "Pl": "Zwiększa pozyskiwanie doświadczenia o 5%.",
         "Ru": "Увеличение получаемого опыта на 3%.",
-        "Tr": "Tecrübe puanı kazancını %3 artırır.",
-        "Uk": "Increases experience earned by 3%."
+        "Tr": "Tecrübe kazanımını %5 artırır.",
+        "Uk": "Increases experience earned by 5%."
       }
     ],
     "Vnum": 104,
@@ -2260,15 +2260,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje fyzickou sílu o 100.",
-        "De": "Erhöht die Körperkraft um 100.",
-        "Es": "Aumenta la fuerza corporal en 100.",
-        "Fr": "La force physique augmente de 100.",
-        "It": "Incrementa la forza fisica di 100.",
-        "Pl": "Zwiększa siłę fizyczną o 100.",
+        "Cz": "Zvyšuje útočnou sílu zblízka o 100.[n]Zvyšuje obranu zblízka o 50.",
+        "De": "Erhöht den Nahkampfangriff um 100.[n]Erhöht die Nahangriffsverteidigung um 50.",
+        "Es": "Aumenta el combate cuerpo a cuerpo en 100.[n]Aumenta la defensa cuerpo a cuerpo en 50.",
+        "Fr": "L'attaque rapprochée augmente de 100.[n]La défense d'attaque rapprochée augmente de 50.",
+        "It": "Aumenta l'attacco corpo a corpo di 100.[n]Aumenta la difesa corpo a corpo di 50.",
+        "Pl": "Zwiększa atak wręcz o 100.[n]Zwiększa obronę ataków wręcz o 50.",
         "Ru": "Повышает физическую силу на 100.",
-        "Tr": "Bedensel gücü 100 puan artırır.",
-        "Uk": "Increases physical strength by 100."
+        "Tr": "Yakın dövüş saldırısını 100 artırır.[n]Yakın saldırı savunmasını 50 artırır.",
+        "Uk": "Increases melee attack power by 100.[n]Increases melee defence by 50."
       }
     ],
     "Vnum": 106,
@@ -2288,15 +2288,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje hbitost o 100.",
-        "De": "Erhöht die Geschicklichkeit um 100.",
-        "Es": "Aumenta la destreza en 100.",
-        "Fr": "L'adresse augmente de 100.",
-        "It": "Incrementa la destrezza di 100.",
-        "Pl": "Zwiększa zręczność o 100.",
+        "Cz": "Zvyšuje útočnou sílu zdálky o 100.[n]Zvyšuje obranu zdálky o 50.[n]Zvyšuje míru zásahu o 200.[n]Zvyšuje vyhýbání o 100.",
+        "De": "Erhöht die Fernangriffskraft um 100.[n]Erhöht die Fernangriffsverteidigung um 50.[n]Erhöht die Hitrate um 200.[n]Erhöht das Ausweichen um 100.",
+        "Es": "Aumenta el poder de ataque a distancia en 100.[n]Aumenta la defensa a distancia en 50.[n]Aumenta el índice de acierto en 200.[n]Aumenta la evasión en 100.",
+        "Fr": "La force d'attaque à distance augmente de 100.[n]La défense d'attaque à distance augmente de 50.[n]La précision augmente de 200.[n]L'esquive augmente de 100.",
+        "It": "Incrementa la forza di attacco a distanza di 100.[n]Aumenta la difesa corpo a corpo di 50.[n]Incrementa l'HitRate di 200.[n]Incrementa la schivata di 100.",
+        "Pl": "Zwiększa siłę ataku długodystansowego o 100.[n]Zwiększa obronę przed atakiem długodystansowym o 50.[n]Zwiększa celność o 200.[n]Zwiększa unik o 100.",
         "Ru": "Повышает ловкость на 100.",
-        "Tr": "Hüneri 100 puan artırır.",
-        "Uk": "Increases agility by 100."
+        "Tr": "Uzak saldırı gücünü 100 artırır.[n]Uzak saldırı savunmasını 50 artırır.[n]İsabet oranını 200 artırır.[n]Kaçınmayı 100 artırır.",
+        "Uk": "Increases ranged attack power by 100.[n]Increases ranged defence by 50.[n]Increases hit rate by 200.[n]Increases dodge by 100."
       }
     ],
     "Vnum": 107,
@@ -2316,15 +2316,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje inteligenci o 100.",
-        "De": "Erhöht die Geisteskraft um 100.",
-        "Es": "Aumenta la defensa mágica en 100.",
-        "Fr": "La force de l'esprit augmente de 100.",
-        "It": "Incrementa l'intelligenza di 100.",
-        "Pl": "Zwiększa bystrość o 100.",
+        "Cz": "Zvyšuje magickou útočnou sílu o 100.[n]Zvyšuje magickou obranu o 50.",
+        "De": "Erhöht die Magieangriffskraft um 100.[n]Erhöht die Magieverteidigung um 50.",
+        "Es": "Aumenta la fuerza de ataque mágico en 100.[n]Aumenta la defensa mágica en 50.",
+        "Fr": "La force d'attaque magique augmente de 100.[n]La défense magique augmente de 50.",
+        "It": "Incrementa l'attacco magico di 100.[n]Aumenta la difesa magica di 50.",
+        "Pl": "Zwiększa siłę ataku magicznego o 100.[n]Zwiększa obronę magiczną o 50.",
         "Ru": "Повышает интеллект на 100.",
-        "Tr": "Zihin gücünü 100 puan artırır.",
-        "Uk": "Increases intelligence by 100."
+        "Tr": "Büyü saldırı gücünü 100 artırır.[n]Büyü savunmasını 50 artırır.",
+        "Uk": "Increases magic attack power by 100.[n]Increases magic defence by 50."
       }
     ],
     "Vnum": 108,
@@ -2347,8 +2347,8 @@
         "Cz": "Zvyšuje maximální HP o 6000.",
         "De": "Erhöht die maximalen HP um 6000.",
         "Es": "Aumenta el nivel máximo de HP en 6000.",
-        "Fr": "Les HP maximums augmentent de 6 000.",
-        "It": "Incrementa gli HP max. di 6.000.",
+        "Fr": "Les HP maximums augmentent de 6000.",
+        "It": "Incrementa gli HP max. di 6000.",
         "Pl": "Zwiększa maks. PŻ o 6000.",
         "Ru": "Повышает максимальное количество ОЗ на 6000.",
         "Tr": "Maksimum YP'yi 6000 puan artırır.",
@@ -2375,8 +2375,8 @@
         "Cz": "Zvyšuje maximální MP o 6000.",
         "De": "Erhöht die maximalen MP um 6000.",
         "Es": "Aumenta el nivel máximo de MP en 6000.",
-        "Fr": "Les MP maximums augmentent de 6 000.",
-        "It": "Incrementa gli MP max. di 6.000.",
+        "Fr": "Les MP maximums augmentent de 6000.",
+        "It": "Incrementa gli MP max. di 6000.",
         "Pl": "Zwiększa maks. PM o 6000.",
         "Ru": "Повышает максимальное количество ОМ на 6000.",
         "Tr": "Maksimum BP'yi 6000 puan artırır.",
@@ -2400,15 +2400,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje celkovou obrannou sílu o 50.",
-        "De": "Erhöht die gesamte Verteidigungskraft um 50.",
-        "Es": "Aumenta el poder de defensa total en 50.",
-        "Fr": "La force de défense totale augmente de 50.",
-        "It": "Incrementa la forza di difesa globale di 50.",
-        "Pl": "Zwiększa całą siłę obrony o 50.",
+        "Cz": "Zvyšuje všechny obrany o 50.",
+        "De": "Erhöht alle Verteidigungen um 50.",
+        "Es": "Aumenta todas las defensas en 50.",
+        "Fr": "Toutes les défenses augmentent de 50.",
+        "It": "Incrementa di 50 tutte le difese.",
+        "Pl": "Zwiększa wszystkie obrony o 50.",
         "Ru": "Повышает общую защиту на 50.",
-        "Tr": "Toplam savunma gücünü 50 puan artırır.",
-        "Uk": "Increases overall defence power by 50."
+        "Tr": "Tüm savunmaları 50 artırır.",
+        "Uk": "Increases all types of defence by 50."
       }
     ],
     "Vnum": 111,
@@ -2428,15 +2428,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje celkovou útočnou sílu o 50.",
-        "De": "Erhöht die gesamte Angriffskraft um 50.",
-        "Es": "Aumenta el poder de ataque total en 50.",
-        "Fr": "La force d'attaque totale augmente de 50.",
-        "It": "Incrementa la forza di attacco globale di 50.",
-        "Pl": "Zwiększa całą siłę ataku o 50.",
+        "Cz": "Zvyšuje všechny útočné síly o 50.",
+        "De": "Erhöht alle Angriffskräfte um 50.",
+        "Es": "Aumenta todos los poderes de ataque en 50.",
+        "Fr": "Toutes les forces d'attaque augmentent de 50.",
+        "It": "Incrementa di 50 tutti gli attacchi.",
+        "Pl": "Zwiększa wszystkie siły ataku o 50.",
         "Ru": "Повышает общую атаку на 50.",
-        "Tr": "Toplam saldırı gücünü 50 puan artırır.",
-        "Uk": "Increases overall attack power by 50."
+        "Tr": "Tüm saldırı güçlerini 50 arttırır.",
+        "Uk": "Increases all types of attack power by 50."
       }
     ],
     "Vnum": 112,
@@ -2444,27 +2444,27 @@
   },
   {
     "Name": {
-      "Cz": "Tato kniha obsahuje sílu medvědího Loa.",
-      "De": "Dieses Buch enthält die Macht des Bären-Loa.",
-      "Es": "Este libro contiene el poder del Loa oso.",
-      "Fr": "Ce livre renferme la puissance du loa ours.",
-      "It": "Questo libro racchiude il potere del Loa orso.",
-      "Pl": "Księga ta zawiera moc Niedźwiedzia Loa.",
+      "Cz": "Svazek Medvědího Loa",
+      "De": "Buch des Bären-Loa",
+      "Es": "Libro del Loa oso",
+      "Fr": "Livre du loa ours",
+      "It": "Libro del Loa orso",
+      "Pl": "Księga Niedźwiedzia Loa",
       "Ru": "В этой книге содержится сила медведя-лоа.",
-      "Tr": "Bu kitap Ayı Loa'nın gücünü barındırır.",
-      "Uk": "This book contains the power of the bear loa."
+      "Tr": "Ayı Loa'nın Kitabı",
+      "Uk": "Bear Loa Tome"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje HP o 7.000.",
-        "De": "Erhöht die HP um 7.000.",
-        "Es": "Aumenta los HP en 7000.",
-        "Fr": "Les HP augmentent de 7 000.",
-        "It": "Incrementa gli HP di 7.000.",
-        "Pl": "Zwiększa ilość PŻ o 7000.",
+        "Cz": "Zvyšuje maximum HP o 7 000.",
+        "De": "Erhöht die maximalen HP um 7000.",
+        "Es": "Aumenta los HP máximos en 7000.",
+        "Fr": "Les HP maximums augmentent de 7000.",
+        "It": "Incrementa gli HP max. di 7000.",
+        "Pl": "Zwiększa maks. PŻ o 7000.",
         "Ru": "Количество ОЗ повышается на 7000.",
-        "Tr": "YP'yi 7.000 artırır.",
-        "Uk": "Increases HP by 7,000."
+        "Tr": "Maksimum YP'yi 7000 artırır.",
+        "Uk": "Increases maximum HP by 7000."
       }
     ],
     "Vnum": 113,
@@ -2472,27 +2472,27 @@
   },
   {
     "Name": {
-      "Cz": "Tato kniha obsahuje sílu orlího Loa.",
-      "De": "Dieses Buch enthält die Macht des Adler-Loa.",
-      "Es": "Este libro contiene el poder del Loa águila.",
-      "Fr": "Ce livre renferme la puissance du loa aigle.",
-      "It": "Questo libro racchiude il potere del Loa aquila.",
-      "Pl": "Księga ta zawiera moc Orła Loa.",
+      "Cz": "Svazek Orlího Loa",
+      "De": "Buch des Adler-Loa",
+      "Es": "Libro del Loa águila",
+      "Fr": "Livre du loa aigle",
+      "It": "Libro del Loa aquila",
+      "Pl": "Księga Orła Loa",
       "Ru": "В этой книге содержится сила орла-лоа.",
-      "Tr": "Bu kitap Kartal Loa'nın gücünü barındırır.",
-      "Uk": "This book contains the power of the eagle loa."
+      "Tr": "Kartal Loa'nın Kitabı",
+      "Uk": "Eagle Loa Tome"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje hbitost o 120.",
-        "De": "Erhöht die Geschicklichkeit um 120.",
-        "Es": "Aumenta la destreza en 120.",
-        "Fr": "L'adresse augmente de 120.",
-        "It": "Incrementa la destrezza di 120.",
-        "Pl": "Zwiększa zręczność o 120.",
+        "Cz": "Zvyšuje útočnou sílu zdálky o 120.[n]Zvyšuje obranu zdálky o 60.[n]Zvyšuje míru zásahu o 240.[n]Zvyšuje vyhýbání o 120.",
+        "De": "Erhöht die Fernangriffskraft um 120.[n]Erhöht die Fernangriffsverteidigung um 60.[n]Erhöht die Hitrate um 240.[n]Erhöht das Ausweichen um 120.",
+        "Es": "Aumenta el poder de ataque a distancia en 120.[n]Aumenta la defensa a distancia en 60.[n]Aumenta el índice de acierto en 240.[n]Aumenta la evasión en 120.",
+        "Fr": "La force d'attaque à distance augmente de 120.[n]La défense d'attaque à distance augmente de 60.[n]La précision augmente de 240.[n]L'esquive augmente de 120.",
+        "It": "Incrementa la forza di attacco a distanza di 120.[n]Aumenta la difesa a distanza di 60.[n]Incrementa l'HitRate di 240.[n]Incrementa la schivata di 120.",
+        "Pl": "Zwiększa siłę ataku długodystansowego o 120.[n]Zwiększa obronę ataków wręcz o 60.[n]Zwiększa celność o 240.[n]Zwiększa unik o 120.",
         "Ru": "Ловкость повышается на 120.",
-        "Tr": "Hüneri 120 artırır.",
-        "Uk": "Increases agility by 120."
+        "Tr": "Uzak saldırı gücünü 120 artırır.[n]Uzak saldırı savunmasını 60 artırır.[n]İsabet oranı 240 artırır.[n]Kaçınmayı 120 artırır.",
+        "Uk": "Increases ranged attack power by 120.[n]Increases ranged defence by 60.[n]Increases hit rate by 240.[n]Increases dodge by 120."
       }
     ],
     "Vnum": 114,
@@ -2500,27 +2500,27 @@
   },
   {
     "Name": {
-      "Cz": "Tato kniha obsahuje sílu hadího Loa.",
-      "De": "Dieses Buch enthält die Macht des Schlangen-Loa.",
-      "Es": "Este libro contiene el poder del Loa serpiente.",
-      "Fr": "Ce livre renferme la puissance du loa serpent.",
-      "It": "Questo libro racchiude il potere del Loa serpente.",
-      "Pl": "Księga ta zawiera moc Węża Loa.",
+      "Cz": "Svazek Hadího Loa",
+      "De": "Buch des Schlangen-Loa",
+      "Es": "Libro del Loa serpiente",
+      "Fr": "Livre du loa serpent",
+      "It": "Libro del Loa serpente",
+      "Pl": "Księga Węża Loa",
       "Ru": "В этой книге содержится сила змеи-лоа.",
-      "Tr": "Bu kitap Yılan Loa'nın gücünü barındırır.",
-      "Uk": "This book contains the power of the snake loa."
+      "Tr": "Yılan Loa'nın Kitabı",
+      "Uk": "Snake Loa Tome"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje inteligenci o 120.",
-        "De": "Erhöht die Geisteskraft um 120.",
-        "Es": "Aumenta la defensa mágica en 120.",
-        "Fr": "La force de l'esprit augmente de 120.",
-        "It": "Incrementa l'intelligenza di 120.",
-        "Pl": "Zwiększa bystrość o 120.",
+        "Cz": "Zvyšuje magickou útočnou sílu o 120.[n]Zvyšuje magickou obranu o 60.",
+        "De": "Erhöht die Magieangriffskraft um 120.[n]Erhöht die Magieverteidigung um 60.",
+        "Es": "Aumenta la fuerza de ataque mágico en 120.[n]Aumenta la defensa mágica en 60.",
+        "Fr": "La force d'attaque magique augmente de 120.[n]La défense magique augmente de 60.",
+        "It": "Incrementa l'attacco magico di 120.[n]Aumenta la difesa magica di 60.",
+        "Pl": "Zwiększa siłę ataku magicznego o 120.[n]Zwiększa obronę magiczną o 60.",
         "Ru": "Интеллект повышается на 120.",
-        "Tr": "Zihin gücünü 120 artırır.",
-        "Uk": "Increases intelligence by 120."
+        "Tr": "Büyü saldırı gücünü 120 artırır.[n]Büyü savunmasını 60 artırır.",
+        "Uk": "Increases magic attack power by 120.[n]Increases magic defence by 60."
       }
     ],
     "Vnum": 115,
@@ -2528,27 +2528,27 @@
   },
   {
     "Name": {
-      "Cz": "Tato kniha obsahuje sílu lvího Loa.",
-      "De": "Dieses Buch enthält die Macht des Löwen-Loa.",
-      "Es": "Este libro contiene el poder del Loa león.",
-      "Fr": "Ce livre renferme la puissance du loa lion.",
-      "It": "Questo libro racchiude il potere del Loa leone.",
-      "Pl": "Księga ta zawiera moc Lwa Loa.",
+      "Cz": "Svazek Lvího Loa",
+      "De": "Buch des Löwen-Loa",
+      "Es": "Libro del Loa león",
+      "Fr": "Livre du loa lion",
+      "It": "Libro del Loa leone",
+      "Pl": "Księga Lwa Loa",
       "Ru": "В этой книге содержится сила льва-лоа.",
-      "Tr": "Bu kitap Aslan Loa'nın gücünü barındırır.",
-      "Uk": "This book contains the power of the lion loa."
+      "Tr": "Aslan Loa'nın Kitabı",
+      "Uk": "Lion Loa Tome"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje fyzickou sílu o 120.",
-        "De": "Erhöht die Körperkraft um 120.",
-        "Es": "Aumenta la fuerza corporal en 120.",
-        "Fr": "La force physique augmente de 120.",
-        "It": "Incrementa la forza fisica di 120.",
-        "Pl": "Zwiększa siłę fizyczną o 120.",
+        "Cz": "Zvyšuje útočnou sílu zblízka o 120.[n]Zvyšuje obranu zblízka o 60.",
+        "De": "Erhöht den Nahkampfangriff um 120.[n]Erhöht die Nahangriffsverteidigung um 60.",
+        "Es": "Aumenta el combate cuerpo a cuerpo en 120.[n]Aumenta la defensa cuerpo a cuerpo en 60.",
+        "Fr": "L'attaque rapprochée augmente de 120.[n]La défense d'attaque rapprochée augmente de 60.",
+        "It": "Aumenta l'attacco corpo a corpo di 120.[n]Aumenta la difesa corpo a corpo di 60.",
+        "Pl": "Zwiększa atak wręcz o 120.[n]Zwiększa obronę ataków wręcz o 60.",
         "Ru": "Физическая сила повышается на 120.",
-        "Tr": "Bedensel gücü 120 artırır.",
-        "Uk": "Increases physical strength by 120."
+        "Tr": "Yakın dövüş saldırısını 120 artırır.[n]Yakın saldırı savunmasını 60 artırır.",
+        "Uk": "Increases melee attack power by 120.[n]Increases melee defence by 60."
       }
     ],
     "Vnum": 116,
@@ -2556,27 +2556,27 @@
   },
   {
     "Name": {
-      "Cz": "Tato kniha obsahuje sílu Krále duchů.",
-      "De": "Dieses Buch enthält die Macht des Geisterkönigs.",
-      "Es": "Este libro contiene el poder del rey de los espíritus.",
-      "Fr": "Ce livre renferme la puissance du roi des esprits.",
-      "It": "Questo libro racchiude il potere del Re Spettro.",
-      "Pl": "Księga ta zawiera moc Król Duchów.",
+      "Cz": "Svazek Krále Duchů",
+      "De": "Buch des Geisterkönigs",
+      "Es": "Libro del rey de los espíritus",
+      "Fr": "Livre du roi des esprits",
+      "It": "Libro del Re Spettro",
+      "Pl": "Księga Króla Duchów",
       "Ru": "В этой книге содержится сила Короля Духов.",
-      "Tr": "Bu kitap Hayaletler Kralı'nın gücünü barındırır.",
-      "Uk": "This book contains the power of the Spirit King."
+      "Tr": "Hayaletler Kralı'nın Kitabı",
+      "Uk": "Spirit King Tome"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje MP o 7.000.",
-        "De": "Erhöht die MP um 7.000.",
-        "Es": "Aumenta los MP en 7000.",
-        "Fr": "Les MP augmentent de 7 000.",
-        "It": "Incrementa gli MP di 7.000.",
-        "Pl": "Zwiększa ilość PM o 7000.",
+        "Cz": "Zvyšuje maximum MP o 7 000.",
+        "De": "Erhöht die maximalen MP um 7000.",
+        "Es": "Aumenta los MP máximos en 7000.",
+        "Fr": "Les MP maximums augmentent de 7000.",
+        "It": "Incrementa gli MP max. di 7000.",
+        "Pl": "Zwiększa maks. PM o 7000.",
         "Ru": "Количество ОМ повышается на 7000.",
-        "Tr": "BP'yi 7.000 artırır.",
-        "Uk": "Increases MP by 7,000."
+        "Tr": "Maksimum BP'yi 7000 artırır.",
+        "Uk": "Increases maximum MP by 7000."
       }
     ],
     "Vnum": 117,
@@ -2596,15 +2596,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 50.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 50 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 50.",
-        "Fr": "Toutes les attaques et défenses augmentent de 50.",
-        "It": "Attacchi e difese aumentano di 50.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 50.",
+        "Cz": "Zvyšuje všechny útočné síly o 50.[n]Zvyšuje všechny obrany o 50.",
+        "De": "Erhöht alle Angriffskräfte um 50.[n]Erhöht alle Verteidigungen um 50.",
+        "Es": "Aumenta todos los poderes de ataque en 50.[n]Aumenta todas las defensas en 50.",
+        "Fr": "Toutes les forces d'attaque augmentent de 50.[n]Toutes les défenses augmentent de 50.",
+        "It": "Incrementa di 50 tutti gli attacchi.[n]Incrementa di 50 tutte le difese.",
+        "Pl": "Zwiększa wszystkie siły ataku o 50.[n]Zwiększa wszystkie obrony o 50.",
         "Ru": "Повышает силу всех атак и защит на 50.",
-        "Tr": "Tüm saldırı ve savunmalar 50 yükselir.",
-        "Uk": "Increases all attacks and defence by 50."
+        "Tr": "Tüm saldırı güçlerini 50 arttırır.[n]Tüm savunmaları 50 artırır.",
+        "Uk": "Increases all types of attack power by 50.[n]Increases all types of defence by 50."
       }
     ],
     "Vnum": 118,
@@ -2624,15 +2624,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 30.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 30 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 30.",
-        "Fr": "Toutes les attaques et défenses augmentent de 30.",
-        "It": "Attacchi e difese aumentano di 30.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 30.",
+        "Cz": "Zvyšuje všechny útočné síly o 30.[n]Zvyšuje všechny obrany o 30.",
+        "De": "Erhöht alle Angriffskräfte um 30.[n]Erhöht alle Verteidigungen um 30.",
+        "Es": "Aumenta todos los poderes de ataque en 30.[n]Aumenta todas las defensas en 30.",
+        "Fr": "Toutes les forces d'attaque augmentent de 30.[n]Toutes les défenses augmentent de 30.",
+        "It": "Incrementa di 30 tutti gli attacchi.[n]Incrementa di 30 tutte le difese.",
+        "Pl": "Zwiększa wszystkie siły ataku o 30.[n]Zwiększa wszystkie obrony o 30.",
         "Ru": "NONE",
-        "Tr": "Tüm saldırı ve savunmalar 30 yükselir.",
-        "Uk": "Increases all attacks and defence by 30."
+        "Tr": "Tüm saldırı güçlerini 30 arttırır.[n]Tüm savunmaları 30 artırır.",
+        "Uk": "Increases all types of attack power by 30.[n]Increases all types of defence by 30."
       }
     ],
     "Vnum": 119,
@@ -2652,15 +2652,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 50.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 50 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 50.",
-        "Fr": "Toutes les attaques et défenses augmentent de 50.",
-        "It": "Attacchi e difese aumentano di 50.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 50.",
+        "Cz": "Zvyšuje všechny útočné síly o 50.[n]Zvyšuje všechny obrany o 50.",
+        "De": "Erhöht alle Angriffskräfte um 50.[n]Erhöht alle Verteidigungen um 50.",
+        "Es": "Aumenta todos los poderes de ataque en 50.[n]Aumenta todas las defensas en 50.",
+        "Fr": "Toutes les forces d'attaque augmentent de 50.[n]Toutes les défenses augmentent de 50.",
+        "It": "Incrementa di 50 tutti gli attacchi.[n]Incrementa di 50 tutte le difese.",
+        "Pl": "Zwiększa wszystkie siły ataku o 50.[n]Zwiększa wszystkie obrony o 50.",
         "Ru": "Повышает силу всех атак и защит на 50.",
-        "Tr": "Tüm saldırı ve savunmalar 50 yükselir.",
-        "Uk": "Increases all attacks and defence by 50."
+        "Tr": "Tüm saldırı güçlerini 50 arttırır.[n]Tüm savunmaları 50 artırır.",
+        "Uk": "Increases all types of attack power by 50.[n]Increases all types of defence by 50."
       }
     ],
     "Vnum": 120,
@@ -2680,15 +2680,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 100.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 100 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 100.",
-        "Fr": "Toutes les attaques et défenses augmentent de 100.",
-        "It": "Attacchi e difese aumentano di 100.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 100.",
+        "Cz": "Zvyšuje všechny útočné síly o 100.[n]Zvyšuje všechny obrany o 100.",
+        "De": "Erhöht alle Angriffskräfte um 100.[n]Erhöht alle Verteidigungen um 100.",
+        "Es": "Aumenta todos los poderes de ataque en 100.[n]Aumenta todas las defensas en 100.",
+        "Fr": "Toutes les forces d'attaque augmentent de 100.[n]Toutes les défenses augmentent de 100.",
+        "It": "Incrementa di 100 tutti gli attacchi.[n]Incrementa tutte le difese di 100.",
+        "Pl": "Zwiększa wszystkie siły ataku o 100.[n]Zwiększa wszystkie obrony o 100.",
         "Ru": "NONE",
-        "Tr": "Tüm saldırı ve savunmalar 100 yükselir.",
-        "Uk": "Increases all attacks and defence by 100."
+        "Tr": "Tüm saldırı güçlerini 100 arttırır.[n]Tüm savunmaları 100 artırır.",
+        "Uk": "Increases all types of attack power by 100.[n]Increases all types of defence by 100."
       }
     ],
     "Vnum": 121,
@@ -2708,15 +2708,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje maximum HP o 10.000.",
-        "De": "Erhöht die maximalen HP um 10.000.",
-        "Es": "Aumenta los HP máximos en 10 000.",
-        "Fr": "Les HP maximums augmentent de 10 000.",
-        "It": "Incrementa gli HP max. di 10.000.",
-        "Pl": "Zwiększa maks. PŻ o 10 000.",
+        "Cz": "Zvyšuje maximum HP o 10 000.",
+        "De": "Erhöht die maximalen HP um 10000.",
+        "Es": "Aumenta los HP máximos en 10000.",
+        "Fr": "Les HP maximums augmentent de 10000.",
+        "It": "Incrementa gli HP max. di 10000.",
+        "Pl": "Zwiększa maks. PŻ o 10000.",
         "Ru": "NONE",
-        "Tr": "Maksimum YP'yi 10.000 yükseltir.",
-        "Uk": "Increases maximum HP by 10,000."
+        "Tr": "Maksimum YP'yi 10000 yükseltir.",
+        "Uk": "Increases maximum HP by 10000."
       }
     ],
     "Vnum": 122,
@@ -2736,15 +2736,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje hbitost o 150.",
-        "De": "Erhöht die Geschicklichkeit um 150.",
-        "Es": "Aumenta la destreza en 150.",
-        "Fr": "L'adresse augmente de 150.",
-        "It": "Incrementa di 150 la destrezza.",
-        "Pl": "Zwiększa zręczność o 150.",
+        "Cz": "Zvyšuje útočnou sílu zdálky o 150.[n]Zvyšuje obranu zdálky o 75.[n]Zvyšuje míru zásahu o 300.[n]Zvyšuje vyhýbání o 150.",
+        "De": "Erhöht die Fernangriffskraft um 150.[n]Erhöht die Fernangriffsverteidigung um 75.[n]Erhöht die Hitrate um 300.[n]Erhöht das Ausweichen um 150.",
+        "Es": "Aumenta el poder de ataque a distancia en 150.[n]Aumenta la defensa a distancia en 75.[n]Aumenta el índice de acierto en 300.[n]Aumenta la evasión en 150.",
+        "Fr": "La force d'attaque à distance augmente de 150.[n]La défense d'attaque à distance augmente de 75.[n]La précision augmente de 300.[n]L'esquive augmente de 150.",
+        "It": "Incrementa la forza di attacco a distanza di 150.[n]Aumenta la difesa corpo a corpo di 75.[n]Incrementa l'HitRate di 300.[n]Incrementa la schivata di 150.",
+        "Pl": "Zwiększa siłę ataku długodystansowego o 150.[n]Zwiększa obronę przed atakiem długodystansowym o 75.[n]Zwiększa celność o 300.[n]Zwiększa unik o 150.",
         "Ru": "NONE",
-        "Tr": "Hüneri 150 artırır.",
-        "Uk": "Increases agility by 150."
+        "Tr": "Uzak saldırı gücünü 150 artırır.[n]Uzak saldırı savunmasını 75 artırır.[n]İsabet oranını 300 yükseltir.[n]Kaçınmayı 150 yükseltir.",
+        "Uk": "Increases ranged attack power by 150.[n]Increases ranged defence by 75.[n]Increases hit rate by 300.[n]Increases dodge by 150."
       }
     ],
     "Vnum": 123,
@@ -2764,15 +2764,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje inteligenci o 150.",
-        "De": "Erhöht die Geisteskraft um 150.",
-        "Es": "Aumenta la defensa mágica en 150.",
-        "Fr": "La force de l'esprit augmente de 150.",
-        "It": "Incrementa l'intelligenza di 150.",
-        "Pl": "Zwiększa bystrość o 150.",
+        "Cz": "Zvyšuje magickou útočnou sílu o 150.[n]Zvyšuje magickou obranu o 75.",
+        "De": "Erhöht die Magieangriffskraft um 150.[n]Erhöht die Magieverteidigung um 75.",
+        "Es": "Aumenta la fuerza de ataque mágico en 150.[n]Aumenta la defensa mágica en 75.",
+        "Fr": "La force d'attaque magique augmente de 150.[n]La défense magique augmente de 75.",
+        "It": "Incrementa l'attacco magico di 150.[n]Aumenta la difesa magica di 75.",
+        "Pl": "Zwiększa siłę ataku magicznego o 150.[n]Zwiększa obronę magiczną o 75.",
         "Ru": "NONE",
-        "Tr": "Zihin gücünü 150 artırır.",
-        "Uk": "Increases intelligence by 150."
+        "Tr": "Büyü saldırı gücünü 150 artırır.[n]Büyü savunmasını 75 artırır.",
+        "Uk": "Increases magic attack power by 150.[n]Increases magic defence by 75."
       }
     ],
     "Vnum": 124,
@@ -2792,15 +2792,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje fyzickou sílu o 150.",
-        "De": "Erhöht die Körperkraft um 150.",
-        "Es": "Aumenta la fuerza corporal en 150.",
-        "Fr": "La force physique augmente de 150.",
-        "It": "Incrementa la forza fisica di 150.",
-        "Pl": "Zwiększa siłę fizyczną o 150.",
+        "Cz": "Zvyšuje útočnou sílu zblízka o 150.[n]Zvyšuje obranu zblízka o 75.",
+        "De": "Erhöht den Nahkampfangriff um 150.[n]Erhöht die Nahangriffsverteidigung um 75.",
+        "Es": "Aumenta el combate cuerpo a cuerpo en 150.[n]Aumenta la defensa cuerpo a cuerpo en 75.",
+        "Fr": "L'attaque rapprochée augmente de 150.[n]La défense d'attaque rapprochée augmente de 75.",
+        "It": "Aumenta l'attacco corpo a corpo di 150.[n]Aumenta la difesa corpo a corpo di 75.",
+        "Pl": "Zwiększa atak wręcz o 150.[n]Zwiększa obronę ataków wręcz o 75.",
         "Ru": "NONE",
-        "Tr": "Bedensel gücü 150 artırır.",
-        "Uk": "Increases physical strength by 150."
+        "Tr": "Yakın dövüş saldırısını 150 artırır.[n]Yakın saldırı savunmasını 75 artırır.",
+        "Uk": "Increases melee attack power by 150.[n]Increases melee defence by 75."
       }
     ],
     "Vnum": 125,
@@ -2820,15 +2820,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje maximum MP o 10.000.",
-        "De": "Erhöht die maximalen MP um 10.000.",
-        "Es": "Aumenta los MP máximos en 10 000.",
-        "Fr": "Les MP maximums augmentent de 10 000.",
-        "It": "Incrementa gli MP max. di 10.000.",
-        "Pl": "Zwiększa maks. PM o 10 000.",
+        "Cz": "Zvyšuje maximum MP o 10 000.",
+        "De": "Erhöht die maximalen MP um 10000.",
+        "Es": "Aumenta los MP máximos en 10000.",
+        "Fr": "Les MP maximums augmentent de 10000.",
+        "It": "Incrementa gli MP max. di 10000.",
+        "Pl": "Zwiększa maks. PM o 10000.",
         "Ru": "NONE",
-        "Tr": "Maksimum BP'yi 10.000 yükseltir.",
-        "Uk": "Increases maximum MP by 10,000."
+        "Tr": "Maksimum BP'yi 10000 yükseltir.",
+        "Uk": "Increases maximum MP by 10000."
       }
     ],
     "Vnum": 126,
@@ -2848,15 +2848,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obranu o 25.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 25 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 25.",
-        "Fr": "Toutes les attaques et défenses augmentent de 25.",
-        "It": "Attacchi e difese aumentano di 25.",
-        "Pl": "Wszystkie ataki i obrony są zwiększone o 25.",
+        "Cz": "Zvyšuje všechny útočné síly o 25.[n]Zvyšuje všechny obrany o 25.",
+        "De": "Erhöht alle Angriffskräfte um 25.[n]Erhöht alle Verteidigungen um 25.",
+        "Es": "Aumenta todos los poderes de ataque en 25.[n]Aumenta todas las defensas en 25.",
+        "Fr": "Toutes les forces d'attaque augmentent de 25.[n]Toutes les défenses augmentent de 25.",
+        "It": "Incrementa tutti gli attacchi di 25.[n]Incrementa tutte le difese di 25.",
+        "Pl": "Zwiększa wszystkie siły ataku o 25.[n]Zwiększa wszystkie obrony o 25.",
         "Ru": "NONE",
-        "Tr": "Tüm saldırı ve savunmalar 25 artar.",
-        "Uk": "Increases all attacks and defence by 25."
+        "Tr": "Tüm saldırı güçlerini 25 arttırır.[n]Bütün savunmaları 25 artırır.",
+        "Uk": "Increases all types of attack power by 25.[n]Increases all types of defence by 25."
       }
     ],
     "Vnum": 127,
@@ -2876,15 +2876,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 50.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 50 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 50.",
-        "Fr": "Toutes les attaques et défenses augmentent de 50.",
-        "It": "Attacchi e difese aumentano di 50.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 50.",
+        "Cz": "Zvyšuje všechny útočné síly o 50.[n]Zvyšuje všechny obrany o 50.",
+        "De": "Erhöht alle Angriffskräfte um 50.[n]Erhöht alle Verteidigungen um 50.",
+        "Es": "Aumenta todos los poderes de ataque en 50.[n]Aumenta todas las defensas en 50.",
+        "Fr": "Toutes les forces d'attaque augmentent de 50.[n]Toutes les défenses augmentent de 50.",
+        "It": "Incrementa di 50 tutti gli attacchi.[n]Incrementa di 50 tutte le difese.",
+        "Pl": "Zwiększa wszystkie siły ataku o 50.[n]Zwiększa wszystkie obrony o 50.",
         "Ru": "Повышает силу всех атак и защит на 50.",
-        "Tr": "Tüm saldırı ve savunmalar 50 yükselir.",
-        "Uk": "Increases all attacks and defence by 50."
+        "Tr": "Tüm saldırı güçlerini 50 arttırır.[n]Tüm savunmaları 50 artırır.",
+        "Uk": "Increases all types of attack power by 50.[n]Increases all types of defence by 50."
       }
     ],
     "Vnum": 128,
@@ -2904,15 +2904,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 100.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 100 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 100.",
-        "Fr": "Toutes les attaques et défenses augmentent de 100.",
-        "It": "Attacchi e difese aumentano di 100.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 100.",
+        "Cz": "Zvyšuje všechny útočné síly o 100.[n]Zvyšuje všechny obrany o 100.",
+        "De": "Erhöht alle Angriffskräfte um 100.[n]Erhöht alle Verteidigungen um 100.",
+        "Es": "Aumenta todos los poderes de ataque en 100.[n]Aumenta todas las defensas en 100.",
+        "Fr": "Toutes les forces d'attaque augmentent de 100.[n]Toutes les défenses augmentent de 100.",
+        "It": "Incrementa di 100 tutti gli attacchi.[n]Incrementa tutte le difese di 100.",
+        "Pl": "Zwiększa wszystkie siły ataku o 100.[n]Zwiększa wszystkie obrony o 100.",
         "Ru": "NONE",
-        "Tr": "Tüm saldırı ve savunmalar 100 yükselir.",
-        "Uk": "Increases all attacks and defence by 100."
+        "Tr": "Tüm saldırı güçlerini 100 arttırır.[n]Tüm savunmaları 100 artırır.",
+        "Uk": "Increases all types of attack power by 100.[n]Increases all types of defence by 100."
       }
     ],
     "Vnum": 129,
@@ -2932,15 +2932,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje max. HP o 13.000.",
-        "De": "Erhöht die max. HP um 13.000.",
-        "Es": "Aumenta los HP máximos en 13 000.",
-        "Fr": "Les HP maximums augmentent de 13 000.",
-        "It": "Incrementa gli HP max. di 13.000.",
-        "Pl": "Zwiększa maks. PŻ o 13 000.",
+        "Cz": "Zvyšuje maximum HP o 13 000.",
+        "De": "Erhöht die maximalen HP um 13000.",
+        "Es": "Aumenta los HP máximos en 13000.",
+        "Fr": "Les HP maximums augmentent de 13000.",
+        "It": "Incrementa gli HP max. di 13000.",
+        "Pl": "Zwiększa maks. PŻ o 13000.",
         "Ru": "NONE",
-        "Tr": "Maksimum YP'yi 13.000 artırır.",
-        "Uk": "Increases max. HP by 13,000."
+        "Tr": "Maksimum YP'yi 13000 artırır.",
+        "Uk": "Increases maximum HP by 13000."
       }
     ],
     "Vnum": 130,
@@ -2960,15 +2960,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje hbitost o 200.",
-        "De": "Erhöht die Geschicklichkeit um 200.",
-        "Es": "Aumenta la destreza en 200.",
-        "Fr": "L'adresse augmente de 200.",
-        "It": "Incrementa di 200 la destrezza.",
-        "Pl": "Zwiększa zręczność o 200.",
+        "Cz": "Zvyšuje útočnou sílu zdálky o 200.[n]Zvyšuje obranu zdálky o 100.[n]Zvyšuje míru zásahu o 400.[n]Zvyšuje vyhýbání o 200.",
+        "De": "Erhöht die Fernangriffskraft um 200.[n]Erhöht die Fernangriffsverteidigung um 100.[n]Erhöht die Hitrate um 400.[n]Erhöht das Ausweichen um 200.",
+        "Es": "Aumenta el poder de ataque a distancia en 200.[n]Aumenta la defensa a distancia en 100.[n]Aumenta el índice de acierto en 400.[n]Aumenta la evasión en 200.",
+        "Fr": "La force d'attaque à distance augmente de 200.[n]La défense d'attaque à distance augmente de 100.[n]La précision augmente de 400.[n]L'esquive augmente de 200.",
+        "It": "Incrementa la forza di attacco a distanza di 200.[n]Aumenta la difesa a distanza di 100.[n]Incrementa l'HitRate di 400.[n]Incrementa la schivata di 200.",
+        "Pl": "Zwiększa siłę ataku długodystansowego o 200.[n]Zwiększa obronę przed atakiem długodystansowym o 100.[n]Zwiększa celność o 400.[n]Zwiększa unik o 200.",
         "Ru": "NONE",
-        "Tr": "Hüneri 200 artırır.",
-        "Uk": "Increases agility by 200."
+        "Tr": "Uzak saldırı gücünü 200 artırır.[n]Uzak saldırı savunmasını 100 artırır.[n]İsabet oranını 400 artırır.[n]Kaçınmayı 200 artırır.",
+        "Uk": "Increases ranged attack power by 200.[n]Increases ranged defence by 100.[n]Increases hit rate by 400.[n]Increases dodge by 200."
       }
     ],
     "Vnum": 131,
@@ -2988,15 +2988,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje inteligenci o 200.",
-        "De": "Erhöht die Geisteskraft um 200.",
-        "Es": "Aumenta la defensa mágica en 200.",
-        "Fr": "La force de l'esprit augmente de 200.",
-        "It": "Incrementa l'intelligenza di 200.",
-        "Pl": "Zwiększa bystrość o 200.",
+        "Cz": "Zvyšuje magickou útočnou sílu o 220.[n]Zvyšuje magickou obranu o 110.",
+        "De": "Erhöht die Magieangriffskraft um 220.[n]Erhöht die Magieverteidigung um 110.",
+        "Es": "Aumenta la fuerza de ataque mágico en 220.[n]Aumenta la defensa mágica en 110.",
+        "Fr": "La force d'attaque magique augmente de 220.[n]La défense magique augmente de 110.",
+        "It": "Incrementa l'attacco magico di 220.[n]Aumenta la difesa magica di 110.",
+        "Pl": "Zwiększa siłę ataku magicznego o 220.[n]Zwiększa obronę magiczną o 110.",
         "Ru": "NONE",
-        "Tr": "Zihin gücünü 200 artırır.",
-        "Uk": "Increases intelligence by 200."
+        "Tr": "Büyü saldırı gücünü 220 artırır.[n]Büyü savunmasını 110 artırır.",
+        "Uk": "Increases magic attack power by 220.[n]Increases magic defence by 110."
       }
     ],
     "Vnum": 132,
@@ -3016,15 +3016,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje fyzickou sílu o 200.",
-        "De": "Erhöht die Körperkraft um 200.",
-        "Es": "Aumenta la fuerza corporal en 200.",
-        "Fr": "La force physique augmente de 200.",
-        "It": "Incrementa la forza fisica di 200.",
-        "Pl": "Zwiększa siłę fizyczną o 200.",
+        "Cz": "Zvyšuje útočnou sílu zblízka o 200.[n]Zvyšuje obranu zblízka o 100.",
+        "De": "Erhöht den Nahkampfangriff um 200.[n]Erhöht die Nahangriffsverteidigung um 100.",
+        "Es": "Aumenta el combate cuerpo a cuerpo en 200.[n]Aumenta la defensa cuerpo a cuerpo en 100.",
+        "Fr": "L'attaque rapprochée augmente de 200.[n]La défense d'attaque rapprochée augmente de 100.",
+        "It": "Aumenta l'attacco corpo a corpo di 200.[n]Aumenta la difesa corpo a corpo di 100.",
+        "Pl": "Zwiększa atak wręcz o 200.[n]Zwiększa obronę ataków wręcz o 100.",
         "Ru": "NONE",
-        "Tr": "Bedensel gücü 200 artırır.",
-        "Uk": "Increases physical strength by 200."
+        "Tr": "Yakın dövüş saldırısını 200 artırır.[n]Yakın saldırı savunmasını 100 artırır.",
+        "Uk": "Increases melee attack power by 200.[n]Increases melee defence by 100."
       }
     ],
     "Vnum": 133,
@@ -3044,15 +3044,15 @@
     },
     "Description": [
       {
-        "Cz": "Zvyšuje max. MP o 13.000.",
-        "De": "Erhöht die max. MP um 13.000.",
-        "Es": "Aumenta los MP máximos en 13 000.",
-        "Fr": "Les MP maximums augmentent de 13 000.",
-        "It": "Incrementa gli MP max. di 13.000.",
-        "Pl": "Zwiększa maks. PM o 13 000.",
+        "Cz": "Zvyšuje maximum MP o 13 000.",
+        "De": "Erhöht die maximalen MP um 13000.",
+        "Es": "Aumenta los MP máximos en 13000.",
+        "Fr": "Les MP maximums augmentent de 13000.",
+        "It": "Incrementa gli MP max. di 13000.",
+        "Pl": "Zwiększa maks. PM o 13000.",
         "Ru": "NONE",
-        "Tr": "Maksimum BP'yi 13.000 artırır.",
-        "Uk": "Increases max. MP by 13,000."
+        "Tr": "Maksimum BP'yi 13000 artırır.",
+        "Uk": "Increases maximum MP by 13000."
       }
     ],
     "Vnum": 134,
@@ -3088,27 +3088,27 @@
   },
   {
     "Name": {
-      "Cz": "Příručka Sběru v Raidech",
-      "De": "Handbuch gesammelter Raids",
-      "Es": "Manual de los raids recopilados",
-      "Fr": "Manuel de collecte des raids",
-      "It": "Manuale dei raid raccolti",
-      "Pl": "Podręcznik zebranych rajdów",
+      "Cz": "Příručka Sběratele",
+      "De": "Handbuch des Sammlers",
+      "Es": "Manual del coleccionista",
+      "Fr": "Manuel du collectionneur",
+      "It": "Guida del collezionista",
+      "Pl": "Przewodnik Kolekcjonera",
       "Ru": "NONE",
-      "Tr": "Toplanan akınların kılavuzu",
-      "Uk": "Raid Collection Handbook"
+      "Tr": "Koleksiyoncu El Kitabı",
+      "Uk": "Collector's Guide"
     },
     "Description": [
       {
-        "Cz": "Poskytuje 5% šanci na získání dodatečných raid tokenů (kromě tokenů z hardcore raidů) a raid boxů.",
-        "De": "Mit einer Wahrscheinlichkeit von 5% erhältst du zusätzliche Raidtokens (außer Hardcore-Raidmarken). Mit einer Wahrscheinlichkeit von 5% erhältst du eine zusätzliche Raidbox.",
-        "Es": "Tienes una probabilidad de un 5 % de recibir tokens de raid adicionales (excepto marcas de raid hardcore). Tienes una probabilidad del 5 % de recibir una caja del raid adicional.",
-        "Fr": "Tu as 5 % de probabilité d'obtenir des jetons de raid supplémentaires (sauf insignes de raid hardcore). Tu as 5 % de probabilité d'obtenir une boite de raid supplémentaire.",
-        "It": "Sussiste una probabilitŕ del 5% di ottenere dei Gettoni del raid extra (eccetto i Gettoni dei raid Hardcore). Ottieni uno Scrigno del raid extra con il 5% di probabilitŕ.",
-        "Pl": "Z prawdopodobieństwem 5% otrzymasz dodatkowe tokeny rajdu (oprócz odznak rajdu hardkorowego). Z prawdopodobieństwem 5% otrzymasz dodatkowe pudełko rajdu.",
+        "Cz": "Poskytuje 5% šanci na získání dodatečného raid boxu.[n]Poskytuje 5% šanci na získání dodatečného raid tokenu (kromě tokenů z hardcore raidů).",
+        "De": "Mit einer Wahrscheinlichkeit von 5% erhältst du eine zusätzliche Raidbox.[n]Mit einer Wahrscheinlichkeit von 5% erhältst du einen zusätzlichen Raidtoken (außer Hardcore-Raidmarken).",
+        "Es": "Tienes una probabilidad del 5 % de recibir una caja del raid adicional.[n]Tienes una probabilidad de un 5 % de recibir un token de raid adicional (excepto marcas de raid hardcore).",
+        "Fr": "Tu as 5 % de probabilité d'obtenir une boite de raid supplémentaire.[n]Tu as 5 % de probabilité d'obtenir un jeton de raid supplémentaire (sauf insignes de raid hardcore).",
+        "It": "Ottieni uno Scrigno del raid extra con il 5% di probabilitŕ.[n]Sussiste una probabilitŕ del 5% di ottenere un Gettone del raid extra (eccetto i Gettoni dei raid Hardcore).",
+        "Pl": "Z prawdopodobieństwem 5% otrzymasz dodatkowe pudełko rajdu.[n]Z prawdopodobieństwem 5% otrzymasz dodatkowy token rajdu (oprócz odznak rajdu hardkorowego).",
         "Ru": "NONE",
-        "Tr": "%5 olasılıkla ek akın jetonu alırsın (Hardcore akın markaları hariç). %5 olasılıkla ek bir akın kutusu alırsın.",
-        "Uk": "Provides a 5% chance to gain additional raid tokens (excluding hardcore raid tokens) and raid boxes."
+        "Tr": "%5 olasılıkla ek bir akın kutusu alırsın.[n]%5 olasılıkla ek bir akın jetonu alırsın (Hardcore akın markaları hariç).",
+        "Uk": "Provides a 5% chance to gain an additional raid box.[n]Provides a 5% chance to gain an additional raid token (excluding hardcore raid tokens)."
       }
     ],
     "Vnum": 136,
@@ -3116,27 +3116,27 @@
   },
   {
     "Name": {
-      "Cz": "Příručka HP/MP",
-      "De": "Handbuch der HP und MP",
-      "Es": "Manual de los HP y MP",
-      "Fr": "Manuel des HP et MP",
-      "It": "Manuale degli HP e degli MP",
-      "Pl": "Podręcznik PŻ i PM",
+      "Cz": "Příručka Vitality",
+      "De": "Handbuch des Lebens",
+      "Es": "Manual de la vida",
+      "Fr": "Manuel de vitalité",
+      "It": "Manuale della vita",
+      "Pl": "Przewodnik Życia",
       "Ru": "NONE",
-      "Tr": "YP ve BP kılavuzu",
-      "Uk": "HP/MP Handbook"
+      "Tr": "Yaşam El Kitabı",
+      "Uk": "Vitality Guide"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje maximum HP a MP o 3.000.",
-        "De": "Erhöht die maximalen HP und MP jeweils um 3.000.",
-        "Es": "Aumenta los HP y los MP máximos en 3000.",
-        "Fr": "Les HP et MP maximums augmentent chacun de 3 000.",
-        "It": "Incrementa gli HP e gli MP max. di 3.000 ciascuno.",
-        "Pl": "Zwiększa maks. PŻ i PM o 3000.",
+        "Cz": "Zvyšuje maximum HP o 3 000.[n]Zvyšuje maximum MP o 3 000.",
+        "De": "Erhöht die maximalen HP um 3000.[n]Erhöht die maximalen MP um 3000.",
+        "Es": "Aumenta los HP máximos en 3000.[n]Aumenta los MP máximos en 3000.",
+        "Fr": "Les HP maximums augmentent de 3000.[n]Les MP maximums augmentent de 3000.",
+        "It": "Incrementa gli HP max. di 3000.[n]Incrementa gli MP massimi di 3000.",
+        "Pl": "Zwiększa maks. PŻ o 3000.[n]Zwiększa maks. PM o 3000.",
         "Ru": "NONE",
-        "Tr": "Maksimum YP ve BP'nin her birini 3.000 artırır.",
-        "Uk": "Increases both maximum HP and MP by 3,000."
+        "Tr": "Maksimum YP'yi 3000 artırır.[n]Maksimum BP'yi 3000 artırır.",
+        "Uk": "Increases maximum HP by 3000.[n]Increases maximum MP by 3000."
       }
     ],
     "Vnum": 137,
@@ -3144,30 +3144,58 @@
   },
   {
     "Name": {
-      "Cz": "Příručka Útoku/Obrany",
-      "De": "Handbuch des Angriffs und der Verteidigung",
-      "Es": "Manual del ataque y la defensa",
-      "Fr": "Manuel d'attaque et de défense",
-      "It": "Manuale dell'attacco e della difesa",
-      "Pl": "Podręcznik ataku i obrony",
+      "Cz": "Příručka Válečníka",
+      "De": "Handbuch des Kriegers",
+      "Es": "Manual del guerrero",
+      "Fr": "Manuel du guerrier",
+      "It": "Guida del guerriero",
+      "Pl": "Przewodnik Wojownika",
       "Ru": "NONE",
-      "Tr": "Saldırı ve savunma kılavuzu",
-      "Uk": "Attack/Defence Handbook"
+      "Tr": "Savaşçı El Kitabı",
+      "Uk": "Warrior's Guide"
     },
     "Description": [
       {
-        "Cz": "Zvyšuje všechny útoky a obrany o 100.",
-        "De": "Sämtliche Angriffe und Verteidigungen sind um 100 erhöht.",
-        "Es": "Todas los ataques y defensas aumentan en 100.",
-        "Fr": "Toutes les attaques et défenses augmentent de 100.",
-        "It": "Attacchi e difese aumentano di 100.",
-        "Pl": "Wszystkie rodzaje ataków i obrony zwiększone są o 100.",
+        "Cz": "Zvyšuje všechny útočné síly o 100.[n]Zvyšuje všechny obrany o 100.",
+        "De": "Erhöht alle Angriffskräfte um 100.[n]Erhöht alle Verteidigungen um 100.",
+        "Es": "Aumenta todos los poderes de ataque en 100.[n]Aumenta todas las defensas en 100.",
+        "Fr": "Toutes les forces d'attaque augmentent de 100.[n]Toutes les défenses augmentent de 100.",
+        "It": "Incrementa di 100 tutti gli attacchi.[n]Incrementa tutte le difese di 100.",
+        "Pl": "Zwiększa wszystkie siły ataku o 100.[n]Zwiększa wszystkie obrony o 100.",
         "Ru": "NONE",
-        "Tr": "Tüm saldırı ve savunmalar 100 yükselir.",
-        "Uk": "Increases all attacks and defence by 100."
+        "Tr": "Tüm saldırı güçlerini 100 arttırır.[n]Tüm savunmaları 100 artırır.",
+        "Uk": "Increases all types of attack power by 100.[n]Increases all types of defence by 100."
       }
     ],
     "Vnum": 138,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Pokročilý Ovocný Výzkum",
+      "De": "Fruchtforschung für Fortgeschrittene",
+      "Es": "Investigación frutal avanzada",
+      "Fr": "Recherche fruitière avancée",
+      "It": "Ricerca sulla frutta di livello avanzato",
+      "Pl": "Badania owoców dla zaawansowanych",
+      "Ru": "NONE",
+      "Tr": "İleri Seviyedekiler için Meyve Araştırmaları",
+      "Uk": "Advanced Fruit Research"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje všechny útočné síly o 30.[n]Zvyšuje všechny obrany o 30.",
+        "De": "Erhöht alle Angriffskräfte um 30.[n]Erhöht alle Verteidigungen um 30.",
+        "Es": "Aumenta todos los poderes de ataque en 30.[n]Aumenta todas las defensas en 30.",
+        "Fr": "Toutes les forces d'attaque augmentent de 30.[n]Toutes les défenses augmentent de 30.",
+        "It": "Incrementa di 30 tutti gli attacchi.[n]Incrementa di 30 tutte le difese.",
+        "Pl": "Zwiększa wszystkie siły ataku o 30.[n]Zwiększa wszystkie obrony o 30.",
+        "Ru": "NONE",
+        "Tr": "Tüm saldırı güçlerini 30 arttırır.[n]Tüm savunmaları 30 artırır.",
+        "Uk": "Increases all types of attack power by 30.[n]Increases all types of defence by 30."
+      }
+    ],
+    "Vnum": 139,
     "IconId": 7070
   },
   {
@@ -12678,14 +12706,14 @@
       },
       {
         "Cz": "Vyžaduje 1000 ultimátních bodů.",
-        "De": "Benötigt 1.000 Ulti-Punkte.",
+        "De": "Benötigt 1000 Ulti-Punkte.",
         "Es": "Requiere 1000 puntos definitivos.",
-        "Fr": "Il te faut 1 000 points ultimes.",
-        "It": "Richiede 1.000 punti definitivi.",
+        "Fr": "Il te faut 1000 points ultimes.",
+        "It": "Richiede 1000 punti definitivi.",
         "Pl": "Wymaga 1000 punktów ultymatywnych.",
         "Ru": "NONE",
-        "Tr": "1.000 Mut puanı gerekir.",
-        "Uk": "Requires 1,000 ultimate points."
+        "Tr": "1000 Mut puanı gerekir.",
+        "Uk": "Requires 1000 ultimate points."
       }
     ],
     "Vnum": 648,
@@ -12728,14 +12756,14 @@
       },
       {
         "Cz": "Vyžaduje 1 000 ultimátních bodů.",
-        "De": "Benötigt 1.000 Ulti-Punkte.",
+        "De": "Benötigt 1000 Ulti-Punkte.",
         "Es": "Requiere 1000 puntos definitivos.",
-        "Fr": "Il te faut 1 000 points ultimes.",
-        "It": "Richiede 1.000 punti definitivi.",
+        "Fr": "Il te faut 1000 points ultimes.",
+        "It": "Richiede 1000 punti definitivi.",
         "Pl": "Wymagana liczba punktów ultymatywnych: 1000.",
         "Ru": "Требуется 1000 очков силы.",
-        "Tr": "1.000 Mut puanı gerekir.",
-        "Uk": "Requires 1,000 ultimate points."
+        "Tr": "1000 Mut puanı gerekir.",
+        "Uk": "Requires 1000 ultimate points."
       }
     ],
     "Vnum": 649,
@@ -12778,14 +12806,14 @@
       },
       {
         "Cz": "Vyžaduje 1 000 ultimátních bodů.",
-        "De": "Benötigt 1.000 Ulti-Punkte.",
+        "De": "Benötigt 1000 Ulti-Punkte.",
         "Es": "Requiere 1000 puntos definitivos.",
-        "Fr": "Il te faut 1 000 points ultimes.",
-        "It": "Richiede 1.000 punti definitivi.",
+        "Fr": "Il te faut 1000 points ultimes.",
+        "It": "Richiede 1000 punti definitivi.",
         "Pl": "Wymagana liczba punktów ultymatywnych: 1000.",
         "Ru": "Требуется 1000 очков силы.",
-        "Tr": "1.000 Mut puanı gerekir.",
-        "Uk": "Requires 1,000 ultimate points."
+        "Tr": "1000 Mut puanı gerekir.",
+        "Uk": "Requires 1000 ultimate points."
       }
     ],
     "Vnum": 650,
@@ -12817,14 +12845,14 @@
       },
       {
         "Cz": "Při napadení během blokování získáš 1 000 ultimátních bodů.",
-        "De": "Wenn du angegriffen wirst, während [Abblocken] aktiv ist, erhältst du 1.000 Ulti-Punkte.",
+        "De": "Wenn du angegriffen wirst, während [Abblocken] aktiv ist, erhältst du 1000 Ulti-Punkte.",
         "Es": "Si te atacan mientras esté activado el Bloqueo recibes 1000 puntos definitivos.",
-        "Fr": "Lorsqu'on t'attaque alors que le barrage est actif, tu obtiens 1 000 points ultimes.",
-        "It": "Quando ti attaccano con Parata attiva, ricevi 1.000 punti definitivi.",
+        "Fr": "Lorsqu'on t'attaque alors que le barrage est actif, tu obtiens 1000 points ultimes.",
+        "It": "Quando ti attaccano con Parata attiva, ricevi 1000 punti definitivi.",
         "Pl": "Jeśli doznasz ataku podczas gdy [Zablokowanie] jest aktywne, otrzymasz 1000 punktów ultymatywnych.",
         "Ru": "При получении атаки во время блока, ты получаешь 1000 очков силы.",
-        "Tr": "[Blokla] etkinken saldırıya uğradığında 1.000 Mut puan alırsın.",
-        "Uk": "If you are attacked while blocking, you earn 1,000 ultimate points."
+        "Tr": "[Blokla] etkinken saldırıya uğradığında 1000 Mut puan alırsın.",
+        "Uk": "If you are attacked while blocking, you earn 1000 ultimate points."
       },
       {
         "Cz": "Cooldown tohoto efektu nemůže být snížen.",
@@ -12973,14 +13001,14 @@
       },
       {
         "Cz": "Vyžaduje 1000 ultimátních bodů a 3. ultimátní efekt.",
-        "De": "Benötigt 1.000 Ulti-Punkte und den 3. Ulti-Effekt.",
+        "De": "Benötigt 1000 Ulti-Punkte und den 3. Ulti-Effekt.",
         "Es": "Requiere 1000 puntos definitivos y el 3.er efecto definitivo.",
-        "Fr": "Il te faut 1 000 points ultimes et le 3e effet ultime.",
-        "It": "Richiede 1.000 punti definitivi e il 3° effetto definitivo.",
+        "Fr": "Il te faut 1000 points ultimes et le 3e effet ultime.",
+        "It": "Richiede 1000 punti definitivi e il 3° effetto definitivo.",
         "Pl": "Wymaga 1000 punktów ultymatywnych i 3. ulty-efektu.",
         "Ru": "NONE",
-        "Tr": "1.000 Mut puanı ve 3. Mut efekti gerekir.",
-        "Uk": "Requires 1,000 ultimate points and the 3rd ultimate effect."
+        "Tr": "1000 Mut puanı ve 3. Mut efekti gerekir.",
+        "Uk": "Requires 1000 ultimate points and the 3rd ultimate effect."
       }
     ],
     "Vnum": 655,
@@ -13023,14 +13051,14 @@
       },
       {
         "Cz": "Vyžaduje 1 000 ultimátních bodů.",
-        "De": "Benötigt 1.000 Ulti-Punkte.",
+        "De": "Benötigt 1000 Ulti-Punkte.",
         "Es": "Requiere 1000 puntos definitivos.",
-        "Fr": "Il te faut 1 000 points ultimes.",
-        "It": "Richiede 1.000 punti definitivi.",
+        "Fr": "Il te faut 1000 points ultimes.",
+        "It": "Richiede 1000 punti definitivi.",
         "Pl": "Wymagana liczba punktów ultymatywnych: 1000.",
         "Ru": "Требуется 1000 очков силы.",
-        "Tr": "1.000 Mut puanı gerekir.",
-        "Uk": "Requires 1,000 ultimate points."
+        "Tr": "1000 Mut puanı gerekir.",
+        "Uk": "Requires 1000 ultimate points."
       }
     ],
     "Vnum": 656,
@@ -13073,14 +13101,14 @@
       },
       {
         "Cz": "Vyžaduje 1 000 ultimátních bodů.",
-        "De": "Benötigt 1.000 Ulti-Punkte.",
+        "De": "Benötigt 1000 Ulti-Punkte.",
         "Es": "Requiere 1000 puntos definitivos.",
-        "Fr": "Il te faut 1 000 points ultimes.",
-        "It": "Richiede 1.000 punti definitivi.",
+        "Fr": "Il te faut 1000 points ultimes.",
+        "It": "Richiede 1000 punti definitivi.",
         "Pl": "Wymagana liczba punktów ultymatywnych: 1000.",
         "Ru": "Требуется 1000 очков силы.",
-        "Tr": "1.000 Mut puanı gerekir.",
-        "Uk": "Requires 1,000 ultimate points."
+        "Tr": "1000 Mut puanı gerekir.",
+        "Uk": "Requires 1000 ultimate points."
       }
     ],
     "Vnum": 657,
@@ -13123,14 +13151,14 @@
       },
       {
         "Cz": "Vyžaduje 1 000 ultimátních bodů.",
-        "De": "Benötigt 1.000 Ulti-Punkte.",
+        "De": "Benötigt 1000 Ulti-Punkte.",
         "Es": "Requiere 1000 puntos definitivos.",
-        "Fr": "Il te faut 1 000 points ultimes.",
-        "It": "Richiede 1.000 punti definitivi.",
+        "Fr": "Il te faut 1000 points ultimes.",
+        "It": "Richiede 1000 punti definitivi.",
         "Pl": "Wymagana liczba punktów ultymatywnych: 1000.",
         "Ru": "Требуется 1000 очков силы.",
-        "Tr": "1.000 Mut puanı gerekir.",
-        "Uk": "Requires 1,000 ultimate points."
+        "Tr": "1000 Mut puanı gerekir.",
+        "Uk": "Requires 1000 ultimate points."
       }
     ],
     "Vnum": 658,
@@ -13173,14 +13201,14 @@
       },
       {
         "Cz": "Vyžaduje 1000 ultimátních bodů a 3. ultimátní efekt.",
-        "De": "Benötigt 1.000 Ulti-Punkte und den 3. Ulti-Effekt.",
+        "De": "Benötigt 1000 Ulti-Punkte und den 3. Ulti-Effekt.",
         "Es": "Requiere 1000 puntos definitivos y el 3.er efecto definitivo.",
-        "Fr": "Il te faut 1 000 points ultimes et le 3e effet ultime.",
-        "It": "Richiede 1.000 punti definitivi e il 3° effetto definitivo.",
+        "Fr": "Il te faut 1000 points ultimes et le 3e effet ultime.",
+        "It": "Richiede 1000 punti definitivi e il 3° effetto definitivo.",
         "Pl": "Wymaga 1000 punktów ultymatywnych i 3. ulty-efektu.",
         "Ru": "NONE",
-        "Tr": "1.000 Mut puanı ve 3. Mut efekti gerekir.",
-        "Uk": "Requires 1,000 ultimate points and the 3rd ultimate effect."
+        "Tr": "1000 Mut puanı ve 3. Mut efekti gerekir.",
+        "Uk": "Requires 1000 ultimate points and the 3rd ultimate effect."
       }
     ],
     "Vnum": 659,
@@ -42075,5 +42103,265 @@
     ],
     "Vnum": 1891,
     "IconId": 6731
+  },
+  {
+    "Name": {
+      "Cz": "Melounit",
+      "De": "Meloteor",
+      "Es": "Melonteorito",
+      "Fr": "Pastéroïde",
+      "It": "Meloteor",
+      "Pl": "Meloteor",
+      "Ru": "NONE",
+      "Tr": "Kavunator",
+      "Uk": "Melonite"
+    },
+    "Description": [],
+    "Vnum": 1892,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1893,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1894,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1895,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1896,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1897,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "Melounová Palba!",
+      "De": "Melononenfeuer!",
+      "Es": "¡Sandisparo!",
+      "Fr": "Cannonade pastèque !",
+      "It": "Fuoco di meloni!",
+      "Pl": "Melononowy Ogień!",
+      "Ru": "NONE",
+      "Tr": "Kavun Ateşi",
+      "Uk": "Melon Fire!"
+    },
+    "Description": [],
+    "Vnum": 1898,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "Shromáždit!",
+      "De": "Versammeln!",
+      "Es": "¡Véspidos, a mí!",
+      "Fr": "Rassemblement !",
+      "It": "A raccolta!",
+      "Pl": "Zbiórka!",
+      "Ru": "NONE",
+      "Tr": "Toplan!",
+      "Uk": "Rally!"
+    },
+    "Description": [
+      {
+        "Cz": "Feraspa kolem sebe shromáždí své spojence.",
+        "De": "Feraspa sammelt ihre Verbündeten um sich.",
+        "Es": "Feraspa reúne a sus aliados en torno a sí.",
+        "Fr": "Feraspa rassemble ses alliés tout autour d'elle.",
+        "It": "Feraspa raduna i suoi alleati intorno a sé.",
+        "Pl": "Feraspa gromadzi wokół siebie swoich sojuszników.",
+        "Ru": "NONE",
+        "Tr": "Feraspa müttefiklerini etrafına topluyor.",
+        "Uk": "Feraspa rallies her allies around her."
+      }
+    ],
+    "Vnum": 1899,
+    "IconId": 6732
+  },
+  {
+    "Name": {
+      "Cz": "Bzučivý Let",
+      "De": "Flugfinte",
+      "Es": "Maniobra de vuelo",
+      "Fr": "Feinte aérienne",
+      "It": "Finta in volo",
+      "Pl": "Zmyłka w Locie",
+      "Ru": "NONE",
+      "Tr": "Uçuş manevrası",
+      "Uk": "Buzz Flight"
+    },
+    "Description": [
+      {
+        "Cz": "Střemhlavě bombarduje své nepřátele a na poslední chvíli mění směr.",
+        "De": "Stürmt auf die Gegner zu und ändert im letzten Moment die Richtung.",
+        "Es": "Se abalanza hacia los oponentes y cambia de dirección en el último momento.",
+        "Fr": "Elle se rue sur l'ennemi et change de direction au dernier moment.",
+        "It": "Carica verso gli avversari e cambia direzione all'ultimo momento.",
+        "Pl": "Naciera na przeciwników i w ostatnim momencie zmienia kierunek.",
+        "Ru": "NONE",
+        "Tr": "Rakiplerin üzerine saldırır ve son anda yönünü değiştirir.",
+        "Uk": "Dive bombs her enemies, changing direction at the last moment."
+      }
+    ],
+    "Vnum": 1900,
+    "IconId": 6733
+  },
+  {
+    "Name": {
+      "Cz": "Křídla Hrůzy",
+      "De": "Flügelbrummen",
+      "Es": "Zumbido de aleteo",
+      "Fr": "Bourdonnement d'ailes",
+      "It": "Ronzio di ali",
+      "Pl": "Bzyczenie Skrzydeł",
+      "Ru": "NONE",
+      "Tr": "Kanat vızıltısı",
+      "Uk": "Wings of Terror"
+    },
+    "Description": [
+      {
+        "Cz": "Vydává zlověstné bzučení křídly.",
+        "De": "Brummt einschüchternd mit den Flügeln.",
+        "Es": "Zumba con las alas de forma amenazante.",
+        "Fr": "Elle intimide la cible en bourdonnant des ailes.",
+        "It": "Sbatte le ali in modo intimidatorio.",
+        "Pl": "Groźnie bzyczy skrzydłami.",
+        "Ru": "NONE",
+        "Tr": "Kanatlarını korkutucu şekilde vızıldatır.",
+        "Uk": "Makes an ominous buzz with her wings."
+      }
+    ],
+    "Vnum": 1901,
+    "IconId": 6734
+  },
+  {
+    "Name": {
+      "Cz": "Zmrzlinová Párty!",
+      "De": "Eiscreme-Party!",
+      "Es": "¡Fiesta del helado!",
+      "Fr": "Glaces à gogo !",
+      "It": "Party del gelato!",
+      "Pl": "Lodowa Impreza!",
+      "Ru": "NONE",
+      "Tr": "Dondurma partisi!",
+      "Uk": "Ice Cream Party!"
+    },
+    "Description": [],
+    "Vnum": 1902,
+    "IconId": 6738
+  },
+  {
+    "Name": {
+      "Cz": "Ledový Šerm",
+      "De": "Eiskalter Kampfstil",
+      "Es": "Estilo de combate helado",
+      "Fr": "Style de combat givré",
+      "It": "Stile di combattimento glaciale",
+      "Pl": "Lodowaty Styl Walki",
+      "Ru": "NONE",
+      "Tr": "Buz gibi soğuk dövüş tarzı",
+      "Uk": "Ice Cold Swordplay"
+    },
+    "Description": [],
+    "Vnum": 1903,
+    "IconId": 6735
+  },
+  {
+    "Name": {
+      "Cz": "Ledová Lukostřelba",
+      "De": "Eiskalte Treffsicherheit",
+      "Es": "Puntería helada",
+      "Fr": "Précision givrée",
+      "It": "Mira glaciale",
+      "Pl": "Lodowata Celność",
+      "Ru": "NONE",
+      "Tr": "Buz gibi soğuk isabet",
+      "Uk": "Ice Cold Archery"
+    },
+    "Description": [],
+    "Vnum": 1904,
+    "IconId": 6736
+  },
+  {
+    "Name": {
+      "Cz": "Ledová Magie",
+      "De": "Eiskalte Zauberkraft",
+      "Es": "Poder mágico helado",
+      "Fr": "Pouvoir magique givré",
+      "It": "Magia ghiacciata",
+      "Pl": "Lodowata Moc Czarów",
+      "Ru": "NONE",
+      "Tr": "Buz gibi soğuk sihir gücü",
+      "Uk": "Ice Cold Magic"
+    },
+    "Description": [],
+    "Vnum": 1905,
+    "IconId": 6737
   }
 ]
