@@ -1,24 +1,24 @@
-name: Auto Merge PRs
-
+name: Auto Approve & Merge PR
 on:
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
+  pull_request_target:
+    types: [opened, reopened, synchronize]
 
 permissions:
-  contents: write
   pull-requests: write
+  contents: write
 
 jobs:
   automerge:
     runs-on: ubuntu-latest
     steps:
-      - name: Automerge PR
-        uses: pascalgn/automerge-action@v0.15.6
+      - name: Approve the PR
+        run: gh pr review --approve "$PR_URL"
         env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          merge_method: squash
-          delete_branch: true
+
+      - name: Merge PR automatically
+        run: gh pr merge "$PR_URL" --squash --delete-branch --auto
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
