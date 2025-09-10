@@ -113,19 +113,19 @@
   },
   {
     "Name": {
-      "Cz": "Nespecifikovaný",
-      "De": "Unspezifiziert",
-      "Es": "no especificado",
-      "Fr": "Non spécifié",
-      "It": "Non specificato",
-      "Pl": "Niesprecyzowane",
-      "Ru": "Не определен",
-      "Tr": "Belirlenmemiş",
-      "Uk": "Unspecified"
+      "Cz": "Seznam Katakomb Nebeské Věže",
+      "De": "Himmelsturmkatakomben-Liste",
+      "Es": "Lista de las Catacumbas de la Torre Celestial",
+      "Fr": "Liste des catacombes de la Tour céleste",
+      "It": "Lista delle Catacombe della Torre del Cielo",
+      "Pl": "Lista Katakumb Wieży Nieba",
+      "Ru": "NONE",
+      "Tr": "Gök Kulesi Katakompları Listesi",
+      "Uk": "Celestial Spire Catacombs List"
     },
     "Description": [],
     "Vnum": 13,
-    "IconId": 0
+    "IconId": 7466
   },
   {
     "Name": {
@@ -3196,6 +3196,34 @@
       }
     ],
     "Vnum": 139,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Příručka Průzkumníka Katakomb",
+      "De": "Katakombenkundschafter Guide",
+      "Es": "Guía del explorador de catacumbas",
+      "Fr": "Guide de l'éclaireur des catacombes",
+      "It": "Guida Esploratore delle Catacombe",
+      "Pl": "Przewodnik Zwiadowcy Katakumb",
+      "Ru": "NONE",
+      "Tr": "Katakomp Kaşifi Rehberi",
+      "Uk": "Catacomb Explorer's Guide"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje všechny útočné síly o 50.[n]Zvyšuje všechny obrany o 50.",
+        "De": "Erhöht alle Angriffskräfte um 50.[n]Erhöht alle Verteidigungen um 50.",
+        "Es": "Aumenta todos los poderes de ataque en 50.[n]Aumenta todas las defensas en 50.",
+        "Fr": "Toutes les forces d'attaque augmentent de 50.[n]Toutes les défenses augmentent de 50.",
+        "It": "Incrementa di 50 tutti gli attacchi.[n]Incrementa di 50 tutte le difese.",
+        "Pl": "Zwiększa wszystkie siły ataku o 50.[n]Zwiększa wszystkie obrony o 50.",
+        "Ru": "Повышает силу всех атак и защит на 50.",
+        "Tr": "Tüm saldırı güçlerini 50 arttırır.[n]Tüm savunmaları 50 artırır.",
+        "Uk": "Increases all types of attack power by 50.[n]Increases all types of defence by 50."
+      }
+    ],
+    "Vnum": 140,
     "IconId": 7070
   },
   {
@@ -42363,5 +42391,69 @@
     "Description": [],
     "Vnum": 1905,
     "IconId": 6737
+  },
+  {
+    "Name": {
+      "Cz": "Požehnání Zlatého Draka",
+      "De": "Segen des Golddrachen",
+      "Es": "Bendición del Dragón dorado",
+      "Fr": "Bénédiction du dragon doré",
+      "It": "Benedizione del Drago d'oro",
+      "Pl": "Błogosławieństwo Złotego Smoka",
+      "Ru": "NONE",
+      "Tr": "Altın Ejderha'nın Kutsaması",
+      "Uk": "Golden Dragon's Blessing"
+    },
+    "Description": [],
+    "Vnum": 1906,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "Požehnání Pollutuse",
+      "De": "Segen des Pollutus",
+      "Es": "Bendición de Poluto",
+      "Fr": "Bénédiction de Pollutus",
+      "It": "Benedizione di Pollutus",
+      "Pl": "Błogosławieństwo Pollutusa",
+      "Ru": "NONE",
+      "Tr": "Kirlitus'un Kutsaması",
+      "Uk": "Pollutus' Blessing"
+    },
+    "Description": [],
+    "Vnum": 1907,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "Požehnání Asgobase",
+      "De": "Segen des Asgobas",
+      "Es": "Bendición de Asgobas",
+      "Fr": "Bénédiction d'Asgobas",
+      "It": "Benedizione di Asgobas",
+      "Pl": "Błogosławieństwo Azgobasa",
+      "Ru": "NONE",
+      "Tr": "Asgobas'ın Kutsaması",
+      "Uk": "Asgobas' Blessing"
+    },
+    "Description": [],
+    "Vnum": 1908,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "Požehnání Obra Army",
+      "De": "Segen des Riesen-Arma",
+      "Es": "Bendición de Mecacoloso",
+      "Fr": "Bénédiction de l'Arma géant",
+      "It": "Benedizione di Giga-Arma",
+      "Pl": "Błogosławieństwo Olbrzyma Arma",
+      "Ru": "NONE",
+      "Tr": "Devasa Arma'nın Kutsaması",
+      "Uk": "Giant Arma's Blessing"
+    },
+    "Description": [],
+    "Vnum": 1909,
+    "IconId": 0
   }
 ]
