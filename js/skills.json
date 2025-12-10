@@ -3228,6 +3228,258 @@
   },
   {
     "Name": {
+      "Cz": "Zapomenutá Dimenzionální Kniha Odolnosti",
+      "De": "Vergessenes Dimensionsbuch der Stärke",
+      "Es": "Libro dimensional olvidado de la fuerza",
+      "Fr": "Livre dimensionnel oublié : puissance",
+      "It": "Libro dimensionale dimenticato della forza",
+      "Pl": "Zapomniana Księga Wymiaru Siły",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Güç Kitabı",
+      "Uk": "Forgotten Dimension Book of Strength"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje maximum HP o 16 800.",
+        "De": "Erhöht die maximalen HP um 16800.",
+        "Es": "Aumenta los HP máximos en 16800.",
+        "Fr": "Les HP maximums augmentent de 16800.",
+        "It": "Aumenta gli HP max. di 16800.",
+        "Pl": "Zwiększa maks. PŻ o 16800.",
+        "Ru": "NONE",
+        "Tr": "Maksimum YP'yi 16800 artırır.",
+        "Uk": "Increases maximum HP by 16800."
+      }
+    ],
+    "Vnum": 141,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutá Dimenzionální Kniha Hbitosti",
+      "De": "Vergessenes Dimensionsbuch der Geschicklichkeit",
+      "Es": "Libro dimensional olvidado de la destreza",
+      "Fr": "Livre dimensionnel oublié : adresse",
+      "It": "Libro dimensionale dimenticato della destrezza",
+      "Pl": "Zapomniana Księga Wymiaru Zręczności",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Hüner Kitabı",
+      "Uk": "Forgotten Dimension Book of Agility"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje útočnou sílu zdálky o 276.[n]Zvyšuje obranu zdálky o 138.[n]Zvyšuje míru zásahu o 552.[n]Zvyšuje vyhýbání o 276.",
+        "De": "Erhöht die Fernangriffskraft um 276.[n]Erhöht die Fernangriffsverteidigung um 138.[n]Erhöht die Hitrate um 552.[n]Erhöht das Ausweichen um 276.",
+        "Es": "Aumenta el poder de ataque a distancia en 276.[n]Aumenta la defensa a distancia en 138.[n]Aumenta el índice de acierto en 552.[n]Aumenta la evasión en 276.",
+        "Fr": "La force d'attaque à distance augmente de 276.[n]La défense d'attaque à distance augmente de 138.[n]La précision augmente de 552.[n]L'esquive augmente de 276.",
+        "It": "Incrementa la forza di attacco a distanza di 276.[n]Aumenta la difesa corpo a corpo di 138.[n]Incrementa l'HitRate di 552.[n]Incrementa la schivata di 276.",
+        "Pl": "Zwiększa siłę ataku długodystansowego o 276.[n]Zwiększa obronę przed atakiem długodystansowym o 138.[n]Zwiększa celność o 552.[n]Zwiększa unik o 276.",
+        "Ru": "NONE",
+        "Tr": "Uzak saldırı gücünü 276 artırır.[n]Uzak saldırı savunmasını 138 artırır.[n]İsabet oranını 552 artırır.[n]Kaçınmayı 276 artırır.",
+        "Uk": "Increases ranged attack power by 276.[n]Increases ranged defence by 138.[n]Increases hit rate by 552.[n]Increases dodge by 276."
+      }
+    ],
+    "Vnum": 142,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutá Dimenzionální Kniha Inteligence",
+      "De": "Vergessenes Dimensionsbuch der Klugheit",
+      "Es": "Libro dimensional olvidado de la sabiduría",
+      "Fr": "Livre dimensionnel oublié : intelligence",
+      "It": "Libro dimensionale dimenticato dell'intelligenza",
+      "Pl": "Zapomniana Księga Wymiaru Mądrości",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Bilgelik Kitabı",
+      "Uk": "Forgotten Dimension Book of Intelligence"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje magickou útočnou sílu o 276.[n]Zvyšuje magickou obranu o 138.",
+        "De": "Erhöht die Magieangriffskraft um 276.[n]Erhöht die Magieverteidigung um 138.",
+        "Es": "Aumenta la fuerza de ataque mágico en 276.[n]Aumenta la defensa mágica en 138.",
+        "Fr": "La force d'attaque magique augmente de 276.[n]La défense magique augmente de 138.",
+        "It": "Incrementa l'attacco magico di 276.[n]Aumenta la difesa magica di 138.",
+        "Pl": "Zwiększa siłę ataku magicznego o 276.[n]Zwiększa obronę magiczną o 138.",
+        "Ru": "NONE",
+        "Tr": "Büyü saldırı gücünü 276 artırır.[n]Büyü savunmasını 138 artırır.",
+        "Uk": "Increases magic attack power by 276.[n]Increases magic defence by 138."
+      }
+    ],
+    "Vnum": 143,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutá Dimenzionální Kniha Síly",
+      "De": "Vergessenes Dimensionsbuch der Macht",
+      "Es": "Libro dimensional olvidado del poder",
+      "Fr": "Livre dimensionnel oublié : puissance",
+      "It": "Libro dimensionale dimenticato della potenza",
+      "Pl": "Zapomniana Księga Wymiaru Mocy",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Kuvvet Kitabı",
+      "Uk": "Forgotten Dimension Book of Power"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje útočnou sílu zblízka o 276.[n]Zvyšuje obranu zblízka o 138.",
+        "De": "Erhöht den Nahkampfangriff um 276.[n]Erhöht die Nahangriffsverteidigung um 138.",
+        "Es": "Aumenta el ataque cuerpo a cuerpo en 276.[n]Aumenta la defensa cuerpo a cuerpo en 138.",
+        "Fr": "L'attaque rapprochée augmente de 276.[n]La défense d'attaque rapprochée augmente de 138.",
+        "It": "Aumenta l'attacco corpo a corpo di 276.[n]Aumenta la difesa corpo a corpo di 138.",
+        "Pl": "Zwiększa siłę ataku wręcz o 276.[n]Zwiększa obronę ataków wręcz o 138.",
+        "Ru": "NONE",
+        "Tr": "Yakın dövüş saldırısını 276 artırır.[n]Yakın saldırı savunmasını 138 artırır.",
+        "Uk": "Increases melee attack power by 276.[n]Increases melee defence by 138."
+      }
+    ],
+    "Vnum": 144,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutá Dimenzionální Kniha Magie",
+      "De": "Vergessenes Dimensionsbuch der Magie",
+      "Es": "Libro dimensional olvidado de la magia",
+      "Fr": "Livre dimensionnel oublié : magie",
+      "It": "Libro dimensionale dimenticato della magia",
+      "Pl": "Zapomniana Księga Wymiaru Magii",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Büyü Kitabı",
+      "Uk": "Forgotten Dimension Book of Magic"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje maximum MP o 16 800.",
+        "De": "Erhöht die maximalen MP um 16800.",
+        "Es": "Aumenta los MP máximos en 16800.",
+        "Fr": "Les MP maximums augmentent de 16800.",
+        "It": "Incrementa gli MP max. di 16800.",
+        "Pl": "Zwiększa maks. PM o 16800.",
+        "Ru": "NONE",
+        "Tr": "Maksimum BP'yi 16800 artırır.",
+        "Uk": "Increases maximum MP by 16800."
+      }
+    ],
+    "Vnum": 145,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutý Dimenzionální Svitek Vílí Síly",
+      "De": "Vergessene Dimensionsschriftrolle der Feenkraft",
+      "Es": "Pergamino dimensional olvidado del poder feérico",
+      "Fr": "Parchemin dimensionnel oublié : puissance de fée",
+      "It": "Libro dimensionale dimenticato della Forza della fata",
+      "Pl": "Zapomniany Zwój Wymiaru Mocy Wróżek",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Peri Gücü Parşömeni",
+      "Uk": "Forgotten Dimension Scroll of Fairy Power"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje element nasazené víly o 5.",
+        "De": "Erhöht das Element der ausgerüsteten Fee um 5.",
+        "Es": "Aumenta en 5 el elemento del hada que tengas equipada.",
+        "Fr": "L'élément de la fée équipée augmente de 5.",
+        "It": "Incrementa di 5 l'elemento della fata equipaggiata.",
+        "Pl": "Zwiększa żywioł wyposażonej wróżki o 5.",
+        "Ru": "NONE",
+        "Tr": "Kuşanılmış perinin elementini 5 yükseltir.",
+        "Uk": "Increases the equipped fairy's element by 5."
+      }
+    ],
+    "Vnum": 146,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutý Dimenzionální Svitek Útočné Síly",
+      "De": "Vergessene Dimensionsschriftrolle der Angriffskraft",
+      "Es": "Pergamino dimensional olvidado del poder de ataque",
+      "Fr": "Parchemin dimensionnel oublié : force d'attaque",
+      "It": "Libro dimensionale dimenticato della Forza di attacco",
+      "Pl": "Zapomniany Zwój Wymiaru Siły Ataku",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Saldırı Gücü Parşömeni",
+      "Uk": "Forgotten Dimension Scroll of Attack Power"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje všechny útoky o 3 %.",
+        "De": "Sämtliche Angriffe sind um 3% erhöht.",
+        "Es": "Todos los ataques aumentan en un 3 %.",
+        "Fr": "Toutes les attaques augmentent de 3 %.",
+        "It": "Il danno dei vari attacchi aumenta del 3%.",
+        "Pl": "Wszystkie ataki są zwiększone o 3%.",
+        "Ru": "NONE",
+        "Tr": "Tüm saldırıları %3 artırır.",
+        "Uk": "Increases all attacks by 3%."
+      }
+    ],
+    "Vnum": 147,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Přízeň Víl (3)",
+      "De": "Feenfreundschaft (3)",
+      "Es": "Amistad de Hada (3)",
+      "Fr": "Amitié des fées (3)",
+      "It": "Amicizia di fata (3)",
+      "Pl": "Przyjaźń Wróżek (3)",
+      "Ru": "NONE",
+      "Tr": "Peri Dostluğu (3)",
+      "Uk": "Fairy Affinity (3)"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje odolnost proti všem elementům o 25.",
+        "De": "Erhöht alle Elementresistenzen um 25.",
+        "Es": "Aumenta todas las resistencias elementales en 25.",
+        "Fr": "Toutes les résistances élémentaires augmentent de 25.",
+        "It": "Incrementa tutte le resistenze agli elementi di 25.",
+        "Pl": "Zwiększa wszystkie odporności na żywioły o 25.",
+        "Ru": "NONE",
+        "Tr": "Tüm element dirençlerini 25 artırır.",
+        "Uk": "Increases all elemental resistances by 25."
+      }
+    ],
+    "Vnum": 148,
+    "IconId": 7070
+  },
+  {
+    "Name": {
+      "Cz": "Zapomenutý Dimenzionální Svitek Zkušeností",
+      "De": "Vergessene Dimensionsschriftrolle der Erfahrung",
+      "Es": "Pergamino dimensional olvidado de la experiencia",
+      "Fr": "Parchemin dimensionnel oublié : expérience",
+      "It": "Libro dimensionale dimenticato della Forza dell'esperienza",
+      "Pl": "Zapomniany Zwój Wymiaru Doświadczenia",
+      "Ru": "NONE",
+      "Tr": "Unutulmuş Boyutsal Deneyim Parşömeni",
+      "Uk": "Forgotten Dimension Scroll of Experience"
+    },
+    "Description": [
+      {
+        "Cz": "Zvyšuje získané zkušenosti o 10 %.",
+        "De": "Erhöht die erhaltene Erfahrung um 10%.",
+        "Es": "Aumenta la experiencia recibida en un 10 %.",
+        "Fr": "L'expérience obtenue augmente de 10 %.",
+        "It": "Incrementa del 10% l'esperienza ottenuta.",
+        "Pl": "Zwiększa otrzymane doświadczenie o 10%.",
+        "Ru": "NONE",
+        "Tr": "Edinilen tecrübeyi %10 artırır.",
+        "Uk": "Increases experience earned by 10%."
+      }
+    ],
+    "Vnum": 149,
+    "IconId": 7070
+  },
+  {
+    "Name": {
       "Cz": "Úder zbraní",
       "De": "Waffenschlag",
       "Es": "Golpe con el arma",
@@ -42455,5 +42707,389 @@
     "Description": [],
     "Vnum": 1909,
     "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1910,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1911,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1912,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1913,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1914,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1915,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1916,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1917,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1918,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1919,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1920,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1921,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1922,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1923,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1924,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1925,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "NONE",
+      "De": "NONE",
+      "Es": "NONE",
+      "Fr": "NONE",
+      "It": "NONE",
+      "Pl": "NONE",
+      "Ru": "NONE",
+      "Tr": "NONE",
+      "Uk": "NONE"
+    },
+    "Description": [],
+    "Vnum": 1926,
+    "IconId": 0
+  },
+  {
+    "Name": {
+      "Cz": "Posvátná Dimenzionální Síla",
+      "De": "Heilige Dimensionalkraft",
+      "Es": "Poder dimensional sagrado",
+      "Fr": "Force dimensionnelle sacrée",
+      "It": "Forza dimensionale sacra",
+      "Pl": "Święta Moc Wymiarów",
+      "Ru": "NONE",
+      "Tr": "Kutsal Boyutsal Güç",
+      "Uk": "Holy Dimensional Force"
+    },
+    "Description": [
+      {
+        "Cz": "Silná pozitivní energie z jiné dimenze.",
+        "De": "Mächtige positive Energien aus einer anderen Dimension.",
+        "Es": "Poderosas energías positivas de otra dimensión.",
+        "Fr": "Ces énergies positives puissantes proviennent d'une autre dimension.",
+        "It": "Potenti energie positive da un'altra dimensione.",
+        "Pl": "Potężne pozytywne energie z innego wymiaru.",
+        "Ru": "NONE",
+        "Tr": "Başka bir boyuttan gelen güçlü pozitif enerjiler.",
+        "Uk": "Powerful positive energy from another dimension."
+      }
+    ],
+    "Vnum": 1927,
+    "IconId": 6739
+  },
+  {
+    "Name": {
+      "Cz": "Velká Dimenzionální Koule",
+      "De": "Gewaltige Sphäre der Dimension",
+      "Es": "Esfera de la dimensión poderosa",
+      "Fr": "Gigantesque sphère des dimensions",
+      "It": "Enorme sfera della dimensione",
+      "Pl": "Olbrzymia Sfera Wymiaru",
+      "Ru": "NONE",
+      "Tr": "Boyutun Engin Küresi",
+      "Uk": "Huge Dimensional Sphere"
+    },
+    "Description": [
+      {
+        "Cz": "Silná dimenzionální síla vyžene zlo do jiné dimenze.",
+        "De": "Starke Dimensionalkräfte verbannen Böses in eine andere Dimension.",
+        "Es": "Potentes poderes dimensionales destierran el mal a otra dimensión.",
+        "Fr": "Ces pouvoirs dimensionnels puissants bannissent le mal dans une autre dimension.",
+        "It": "Potenti forze dimensionali mandano il male in un'altra dimensione.",
+        "Pl": "Silne moce wymiarów przepędzają zło do innego wymiaru.",
+        "Ru": "NONE",
+        "Tr": "Kuvvetli boyutsal güçler kötülüğü başka bir boyuta sürgün eder.",
+        "Uk": "Powerful dimensional forces banish evil to another dimension."
+      }
+    ],
+    "Vnum": 1928,
+    "IconId": 6740
+  },
+  {
+    "Name": {
+      "Cz": "Posvátný Dimenzionální Pulz",
+      "De": "Heiliger Dimensionspuls",
+      "Es": "Pulso dimensional sagrado",
+      "Fr": "Flux dimensionnel sacré",
+      "It": "Impulso dimensionale sacro",
+      "Pl": "Święty Puls Wymiaru",
+      "Ru": "NONE",
+      "Tr": "Kutsal Boyutsal Nabız",
+      "Uk": "Holy Dimensional Pulse"
+    },
+    "Description": [
+      {
+        "Cz": "Pozitivní dimenzionální síla povzbuzuje spojence.",
+        "De": "Positive Dimensionalkraft stärkt Verbündete.",
+        "Es": "El poder dimensional positivo fortalece a los aliados.",
+        "Fr": "La force dimensionnelle positive renforce les alliés.",
+        "It": "La forza dimensionale positiva rende piů forti gli alleati.",
+        "Pl": "Pozytywna moc wymiarów wzmacnia sojuszników.",
+        "Ru": "NONE",
+        "Tr": "Pozitif boyutsal güç müttefikleri kuvvetlendirir.",
+        "Uk": "The positive dimensional force invigorates allies."
+      }
+    ],
+    "Vnum": 1929,
+    "IconId": 6741
+  },
+  {
+    "Name": {
+      "Cz": "Rybonádo Lumi",
+      "De": "Lumis Fischtornado",
+      "Es": "Tornado de peces de Lumi",
+      "Fr": "Tornade marine de Lumi",
+      "It": "Tornado di pesci di Lumi",
+      "Pl": "Rybie Tornado Lumiego",
+      "Ru": "NONE",
+      "Tr": "Lumi'nin Balık Hortumu",
+      "Uk": "Lumi's Fishnado"
+    },
+    "Description": [
+      {
+        "Cz": "Lumi se vrhá do akce, točí se okolo a dává blízkým nepřátelům poškození.",
+        "De": "Lumi stürzt sich wild wirbelnd ins Gefecht und fügt Gegnern in der Nähe Schaden zu.",
+        "Es": "Lumi se lanza al combate girando violentamente y causa daño a los enemigos cercanos.",
+        "Fr": "Lumi se rue au combat en tourbillonnant violemment et inflige des dégâts aux adversaires proches.",
+        "It": "Lumi si lancia nella mischia con un vortice selvaggio, infliggendo danni ai nemici vicini.",
+        "Pl": "Lumi wkracza do walki, wirując jak szalony i zadając obrażenia pobliskim przeciwnikom.",
+        "Ru": "NONE",
+        "Tr": "Lumi çılgınlar gibi dönerek savaşa dalar ve yakındaki rakiplere hasar verir.",
+        "Uk": "Lumi charges into action, spinning around and dealing damage to nearby enemies."
+      }
+    ],
+    "Vnum": 1930,
+    "IconId": 6742
   }
 ]
